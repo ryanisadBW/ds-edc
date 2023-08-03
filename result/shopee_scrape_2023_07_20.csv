@@ -1,0 +1,901 @@
+,SKU,price,category,brand
+0,Axis 5000,5875,Pulsa,AXIS
+1,Axis 10000,10825,Pulsa,AXIS
+2,Axis 15.000,14900,Pulsa,AXIS
+3,Axis 25.000,24900,Pulsa,AXIS
+4,Axis 30.000,29900,Pulsa,AXIS
+6,Axis 50.000,49700,Pulsa,AXIS
+12,Axis 100.000,99500,Pulsa,AXIS
+13,Axis 200.000,199000,Pulsa,AXIS
+14,Axis 300.000,298750,Pulsa,AXIS
+15,AXIS 500.000,498800,Pulsa,AXIS
+22,AXIS 1.000.000,995000,Pulsa,AXIS
+0,Indosat 5000,5760,Pulsa,INDOSAT
+1,Indosat 10000,10690,Pulsa,INDOSAT
+2,Indosat 12000,11990,Pulsa,INDOSAT
+3,Indosat 15.000,15000,Pulsa,INDOSAT
+4,Indosat 20.000,19730,Pulsa,INDOSAT
+6,INDOSAT 25.000,24725,Pulsa,INDOSAT
+12,Indosat 30.000,29430,Pulsa,INDOSAT
+13,INDOSAT 50.000,48800,Pulsa,INDOSAT
+21,Indosat 60.000,58750,Pulsa,INDOSAT
+22,Indosat 80.000,78050,Pulsa,INDOSAT
+27,INDOSAT 100.000,96700,Pulsa,INDOSAT
+29,Indosat 125.000,123500,Pulsa,INDOSAT
+30,INDOSAT 150.000,143900,Pulsa,INDOSAT
+36,INDOSAT 200.000,187540,Pulsa,INDOSAT
+37,INDOSAT 250.000,234900,Pulsa,INDOSAT
+38,INDOSAT 500.000,469900,Pulsa,INDOSAT
+45,INDOSAT 1.000.000,959900,Pulsa,INDOSAT
+0,Smartfren 5.000,5200,Pulsa,SMARTFREN
+1,Smartfren 10.000,10050,Pulsa,SMARTFREN
+2,Smartfren 20.000,19825,Pulsa,SMARTFREN
+3,Smartfren 25.000,24800,Pulsa,SMARTFREN
+4,Smartfren 30.000,30000,Pulsa,SMARTFREN
+5,Smartfren 50.000,49200,Pulsa,SMARTFREN
+6,Smartfren 60.000,58850,Pulsa,SMARTFREN
+12,Smartfren 75.000,74525,Pulsa,SMARTFREN
+13,Smartfren 100.000,98200,Pulsa,SMARTFREN
+14,Smartfren 150.000,147200,Pulsa,SMARTFREN
+20,Smartfren 200.000,197000,Pulsa,SMARTFREN
+21,Smartfren 300.000,294600,Pulsa,SMARTFREN
+22,Smartfren 500.000,492200,Pulsa,SMARTFREN
+23,Smartfren 1.000.000,984900,Pulsa,SMARTFREN
+0,Telkomsel 1.000,1700,Pulsa,Telkomsel
+1,Telkomsel 2.000,2800,Pulsa,Telkomsel
+2,Telkomsel 3.000,4850,Pulsa,Telkomsel
+3,Telkomsel 5000,5250,Pulsa,Telkomsel
+4,Telkomsel 10000,10350,Pulsa,Telkomsel
+6,Telkomsel 15.000,14900,Pulsa,Telkomsel
+13,Telkomsel 20000,19890,Pulsa,Telkomsel
+14,Telkomsel 25.000,24875,Pulsa,Telkomsel
+15,Telkomsel 30.000,29875,Pulsa,Telkomsel
+22,Telkomsel 35.000,34950,Pulsa,Telkomsel
+23,Telkomsel 40.000,39800,Pulsa,Telkomsel
+29,Telkomsel 45.000,44950,Pulsa,Telkomsel
+31,Telkomsel 50.000,49705,Pulsa,Telkomsel
+38,Telkomsel 55.000,54950,Pulsa,Telkomsel
+39,Telkomsel 60.000,59950,Pulsa,Telkomsel
+40,Telkomsel 65.000,64950,Pulsa,Telkomsel
+47,Telkomsel 70.000,69900,Pulsa,Telkomsel
+48,Telkomsel 75.000,74500,Pulsa,Telkomsel
+56,Telkomsel 80.000,79900,Pulsa,Telkomsel
+57,Telkomsel 85.000,84900,Pulsa,Telkomsel
+63,Telkomsel 90.000,89900,Pulsa,Telkomsel
+64,Telkomsel 95.000,94900,Pulsa,Telkomsel
+65,Telkomsel 100.000,98500,Pulsa,Telkomsel
+72,Telkomsel 150.000,149000,Pulsa,Telkomsel
+74,Telkomsel 200.000,198100,Pulsa,Telkomsel
+81,Telkomsel 300.000,298450,Pulsa,Telkomsel
+82,Telkomsel 500.000,497250,Pulsa,Telkomsel
+89,Telkomsel 1.000.000,995500,Pulsa,Telkomsel
+0,Three 1.000,1350,Pulsa,three
+1,Three 2.000,2325,Pulsa,three
+2,Three 3.000,3350,Pulsa,three
+3,Three 4.000,4389,Pulsa,three
+4,Three 5.000,5570,Pulsa,three
+5,Three 8.000,8575,Pulsa,three
+6,Three 10.000,10425,Pulsa,three
+11,Three 10.000 (test),10450,Pulsa,three
+12,Three 15.000,14975,Pulsa,three
+13,Three 20.000,19850,Pulsa,three
+21,Three 25.000,24750,Pulsa,three
+22,Three 30.000,29900,Pulsa,three
+29,Three 40.000,40000,Pulsa,three
+30,Three 50.000,49400,Pulsa,three
+36,Three 60.000,60000,Pulsa,three
+37,Three 70.000,70000,Pulsa,three
+38,Three 75.000,74500,Pulsa,three
+39,Three 80.000,80000,Pulsa,three
+45,Three 90.000,90000,Pulsa,three
+46,Three 100.000,98900,Pulsa,three
+47,Three 125.000,124000,Pulsa,three
+48,Three 150.000,148500,Pulsa,three
+55,Three 200.000,197400,Pulsa,three
+56,Three 250.000,246000,Pulsa,three
+62,Three 300.000,297200,Pulsa,three
+63,Three 500.000,495000,Pulsa,three
+0,XL 5000,5900,Pulsa,XL
+1,XL 10.000,10825,Pulsa,XL
+2,XL 15.000,14975,Pulsa,XL
+3,XL 25.000,24875,Pulsa,XL
+4,XL 30.000,29900,Pulsa,XL
+5,XL 50.000,49700,Pulsa,XL
+6,XL 100.000,99500,Pulsa,XL
+12,XL 150.000,149550,Pulsa,XL
+13,XL 200.000,199000,Pulsa,XL
+14,XL 300.000,298250,Pulsa,XL
+20,XL 500.000,497600,Pulsa,XL
+21,XL 1.000.000,995000,Pulsa,XL
+0,BRONET 24 Jam 1GB 1 Hr + Bonus Lokal Kuota,5000,Paket Data,AXIS
+1,"Paket KZL Chat (WhatsApp/LINE/BBM) Unlimited,  7hari",4725,Paket Data,AXIS
+2,Paket KZL Games (AOV &amp; Free Fire) 500MB| 7 hari,4800,Paket Data,AXIS
+3,"Paket KZL Games (Vainglory) 500MB,  7hari",4725,Paket Data,AXIS
+4,"Paket KZL SocMed (FB/IG/Twitter) Unlimited,  7hari",4725,Paket Data,AXIS
+5,"Paket KZL Combo SocMed + Chat Unlimited,  7 hari",6650,Paket Data,AXIS
+6,Paket KANGEN 24Jam 30mnt 7hr,7900,Paket Data,AXIS
+12,Paket KZL Games (AOV &amp; Free Fire) 1GB| 30 hari,9800,Paket Data,AXIS
+13,"Paket KZL Games (Vainglory) 1GB,  30 hari",9725,Paket Data,AXIS
+14,AIGO Bronet Mini 1GB 5hr,9950,Paket Data,AXIS
+19,Bronet Mini 1GB 7 Hari,12250,Paket Data,AXIS
+20,"Paket KZL Chat (WhatsApp/LINE/BBM) Unlimited,  30 hari",14500,Paket Data,AXIS
+21,"Paket KZL SocMed (FB/IG/Twitter) Unlimited,  30 hari",14550,Paket Data,AXIS
+22,Bronet Mini 1.5GB 7 Hari,14450,Paket Data,AXIS
+28,AIGO Bronet 24Jam 1GB 30hr,15350,Paket Data,AXIS
+29,AIGO Bronet Mini 2GB 7hr,17650,Paket Data,AXIS
+30,Bronet Mini 2GB 7 Hari,17250,Paket Data,AXIS
+36,"Paket KZL Combo SocMed + Chat Unlimited,  30 hari",19500,Paket Data,AXIS
+37,AIGO Bronet Mini 3GB 15hr,21900,Paket Data,AXIS
+38,BRONET 4G OWSEM 1GB + 1GB,23900,Paket Data,AXIS
+44,BRONET 4G OWSEM 1GB + 1GB,22825,Paket Data,AXIS
+45,Bronet Mini 3GB 7 Hari,19500,Paket Data,AXIS
+46,AIGO Bronet 24Jam 2GB 30hr,24500,Paket Data,AXIS
+51,Paket KANGEN 24Jam 100mnt 30hr,24500,Paket Data,AXIS
+52,Bronet 24Jam 6GB Kuota Utama + 20GB Sosmed/Chat| 10hr,24500,Paket Data,AXIS
+53,"BRONET 2GB,  60 hari",26450,Paket Data,AXIS
+54,Bronet Mini 5GB 7 Hari,22750,Paket Data,AXIS
+60,AIGO Bronet 24Jam 3GB 30hr,24950,Paket Data,AXIS
+61,AIGO Bronet Mini 5GB 15hr,31750,Paket Data,AXIS
+62,AIGO Bronet Mini 7GB 15hr,33500,Paket Data,AXIS
+68,Bronet Mini 8GB 7 Hari,28500,Paket Data,AXIS
+69,BRONET 4G OWSEM 1GB + 3GB,38900,Paket Data,AXIS
+70,BRONET 4G OWSEM 1GB + 3GB,37135,Paket Data,AXIS
+71,"BRONET 3GB,  60 hari",33521,Paket Data,AXIS
+77,AXIS+ 24Jam 1GB 30hr| 6bln,34950,Paket Data,AXIS
+78,OWSEM 16GB  Unlimited Games 30 hari,42000,Paket Data,AXIS
+79,AIGO Bronet 24Jam 5GB 30hr,31550,Paket Data,AXIS
+85,OWSEM 24GB  Unlimited Games 30 hari,53000,Paket Data,AXIS
+86,"BRONET 5GB,  60 hari",49100,Paket Data,AXIS
+87,BRONET 4G OWSEM 2GB + 6GB,52850,Paket Data,AXIS
+93,BRONET 4G OWSEM 2GB + 6GB,61900,Paket Data,AXIS
+94,AIGO Bronet 24Jam 12GB 30hr,61950,Paket Data,AXIS
+95,AIGO Bronet 24Jam 8GB 30hr,45950,Paket Data,AXIS
+101,OWSEM 32GB  Unlimited Games 30 hari,59950,Paket Data,AXIS
+102,AXIS+ 24Jam 2GB 30hr| 6bln,69750,Paket Data,AXIS
+103,BRONET 24Jam 8GB + Games 2GB 60hr,69475,Paket Data,AXIS
+110,"BRONET 8GB,  60 hari",68911,Paket Data,AXIS
+111,[EKSKLUSIF] BRONET 24 Jam 8GB 60 Hari + Sosmed 2GB 30 Hari,66975,Paket Data,AXIS
+112,BRONET 4G OWSEM 3GB + 9GB,80900,Paket Data,AXIS
+119,BRONET 4G OWSEM 3GB + 9GB,68050,Paket Data,AXIS
+120,OWSEM 48GB  Unlimited Games 30 hari,74950,Paket Data,AXIS
+125,AIGO Bronet 24Jam 22GB 30hr,81500,Paket Data,AXIS
+126,AXIS+ 24Jam 1GB 30hr| 12bln,74800,Paket Data,AXIS
+127,"BRONET 10GB,  60 hari",80494,Paket Data,AXIS
+128,BRONET 24Jam 10GB + Games 2GB 60hr,79700,Paket Data,AXIS
+135,[EKSKLUSIF] BRONET 24 Jam 10GB 60 Hari + Sosmed 2GB 30 Hari,78975,Paket Data,AXIS
+136,AXIS+ 24Jam 3GB 30hr| 6bln,84750,Paket Data,AXIS
+137,"BRONET 12GB,  60 hari",89880,Paket Data,AXIS
+144,BRONET 24Jam 12GB + Games 2GB 60hr,89475,Paket Data,AXIS
+145,[EKSKLUSIF] BRONET 24 Jam 12GB 60 Hari + Sosmed 2GB 30 Hari,89475,Paket Data,AXIS
+146,OWSEM 80GB  Unlimited Games 30 hari,96000,Paket Data,AXIS
+153,"BRONET 16GB,  60 hari",114700,Paket Data,AXIS
+0,"Internet 1 GB,  1 hari",4500,Paket Data,INDOSAT
+1,Indosat 100MB 30 hari,2775,Paket Data,INDOSAT
+2,Freedom Apps EDU 2GB / 2 Hari,3750,Paket Data,INDOSAT
+3,Internet 1 GB 3 hari,5500,Paket Data,INDOSAT
+4,Indosat 200MB 30 hari,5500,Paket Data,INDOSAT
+5,Yellow 1GB / 2 Hari,5450,Paket Data,INDOSAT
+6,Yellow 1GB / 3 Hari,4940,Paket Data,INDOSAT
+12,Data Kuota 500MB,6200,Paket Data,INDOSAT
+13,Indosat 300MB 30 hari,5100,Paket Data,INDOSAT
+14,"Internet 1 GB,  7 hari",9200,Paket Data,INDOSAT
+21,Yellow 1GB / 7 Hari,10650,Paket Data,INDOSAT
+22,Freedom Apps EDU 6GB / 7 Hari,9750,Paket Data,INDOSAT
+23,Freedom Internet 2.5GB/5Hari,10950,Paket Data,INDOSAT
+28,Indosat 500MB 30 hari,10100,Paket Data,INDOSAT
+29,Paket Nelpon Obrol Sepuasnya ke Sesama / 30 Hari,9900,Paket Data,INDOSAT
+30,Freedom Apps FUN 2GB / 7 Hari,11700,Paket Data,INDOSAT
+31,Indosat 700MB 30 hari,11400,Paket Data,INDOSAT
+37,Internet 1 GB 7 hari,11500,Paket Data,INDOSAT
+38,Yellow 1GB / 15 Hari,13300,Paket Data,INDOSAT
+39,Indosat 1GB 30 hari,12150,Paket Data,INDOSAT
+46,Freedom Internet 5GB / 3 Hari,14300,Paket Data,INDOSAT
+47,Freedom Apps EDU 10GB / 15 Hari,14650,Paket Data,INDOSAT
+53,(closed) Freedom Internet 2GB / 30 Hari,16500,Paket Data,INDOSAT
+54,Freedom Internet 5GB/5 Hari,14800,Paket Data,INDOSAT
+55,Freedom U 1GB+2GB Apps / 7 Hari,14900,Paket Data,INDOSAT
+63,Freedom Internet 2GB / 30 Hari,16500,Paket Data,INDOSAT
+64,Kuota Apps Di Rumah Aja 5GB / 3 Hari,16745,Paket Data,INDOSAT
+71,Freedom Kuota Harian 1GB/hari (Total 7GB) / 7 Hari ,19700,Paket Data,INDOSAT
+72,Freedom Internet 3GB / 30 Hari + Bonus Kuota Zona Hingga 2GB,19900,Paket Data,INDOSAT
+78,Freedom Internet 4GB / 30 Hari,19800,Paket Data,INDOSAT
+79,Freedom Internet 7GB / 5 Hari,20450,Paket Data,INDOSAT
+80,Freedom Internet 7GB/7 Hari,19850,Paket Data,INDOSAT
+85,Freedom Combo 4GB / 30 Hari + Bonus 300MB,24450,Paket Data,INDOSAT
+86,Freedom Apps EDU 30GB / 30 Hari,24600,Paket Data,INDOSAT
+87,Freedom Apps FUN 6GB / 15 Hari,24600,Paket Data,INDOSAT
+88,Freedom Internet 15GB/3 Hari,24900,Paket Data,INDOSAT
+96,Freedom Internet 4GB / 30 Hari + BONUS 300MB ,24750,Paket Data,INDOSAT
+97,Freedom U 1GB+4.5GB Apps / 30 Hari,24600,Paket Data,INDOSAT
+105,Indosat 2GB 30 hari,24300,Paket Data,INDOSAT
+111,Paket Nelpon Obrol Sepuasnya ke Sesama + 60 menit ke Semua / 30 Hari,24750,Paket Data,INDOSAT
+112,Paket Nelpon Obrol Sepuasnya ke Sesama + 60 menit ke Semua / 30 Hari,25000,Paket Data,INDOSAT
+113,Freedom U 5.5GB / 30 Hari,30950,Paket Data,INDOSAT
+120,Kuota Apps Di Rumah Aja 10GB / 7 Hari,26550,Paket Data,INDOSAT
+121,Freedom Combo 6 GB / 30 Hari,30600,Paket Data,INDOSAT
+127,Freedom Internet 5GB / 30 Hari + Bonus Kuota Zona Hingga 4GB,29800,Paket Data,INDOSAT
+128,Freedom Internet 6.5GB / 30 Hari,34650,Paket Data,INDOSAT
+129,Freedom Combo 8GB / 30 Hari + Bonus 500MB,34550,Paket Data,INDOSAT
+130,Indosat 3GB 30 hari,34900,Paket Data,INDOSAT
+138,Paket Extra 2GB,35900,Paket Data,INDOSAT
+139,Freedom Combo 10 GB / 30 Hari,40960,Paket Data,INDOSAT
+145,Freedom U 2GB+7.5GB Apps / 30 Hari,39200,Paket Data,INDOSAT
+146,Freedom Apps FUN 10GB / 30 Hari,39230,Paket Data,INDOSAT
+147,Freedom Kuota Harian 1GB/hari (Total 14GB) / 14 Hari + BONUS 500MB ,39300,Paket Data,INDOSAT
+152,Freedom Internet 10GB / 30 Hari,39200,Paket Data,INDOSAT
+153,Freedom U 10GB / 30 Hari,51250,Paket Data,INDOSAT
+154,Freedom Internet Longlife 8GB / 60 Hari,47250,Paket Data,INDOSAT
+155,Freedom Combo 14GB / 30 Hari + Bonus 1GB,48850,Paket Data,INDOSAT
+163,Freedom Internet 3GB / 30 Hari + Vidio FIFA World Cup,47750,Paket Data,INDOSAT
+164,Freedom Internet 10GB / 30 Hari + BONUS 1GB ,48500,Paket Data,INDOSAT
+170,Freedom Internet 12GB / 30 Hari + Bonus Kuota Zona Hingga 8GB,51000,Paket Data,INDOSAT
+171,Indosat 4GB 30 hari,45400,Paket Data,INDOSAT
+172,Paket Nelpon Obrol Sepuasnya ke Sesama + 250 menit ke Semua / 30 Hari,48850,Paket Data,INDOSAT
+178,Freedom U 3GB+15GB Apps / 30 Hari,58800,Paket Data,INDOSAT
+179,Paket Extra 4GB,51900,Paket Data,INDOSAT
+180,Paket Nelpon Obrol Sepuasnya ke Sesama + 60 menit ke Semua / 30 Hari,55800,Paket Data,INDOSAT
+186,Freedom Combo 20 GB / 30 Hari,62420,Paket Data,INDOSAT
+187,Freedom Combo M 12GB / 30 Hari,64000,Paket Data,INDOSAT
+188,Freedom Internet 18GB / 30 Hari,64500,Paket Data,INDOSAT
+189,Indosat 5GB 30 hari,59900,Paket Data,INDOSAT
+195,Freedom U 5GB+15GB Apps / 30 Hari,62900,Paket Data,INDOSAT
+196,Freedom U 20GB / 30 Hari,72170,Paket Data,INDOSAT
+197,Freedom Internet Longlife 12GB / 90 Hari,67000,Paket Data,INDOSAT
+203,Freedom Combo 20GB / 30 Hari + Bonus 3GB,68500,Paket Data,INDOSAT
+204,Paket Extra 6GB,69400,Paket Data,INDOSAT
+205,Freedom U 7GB+20GB Apps / 30 Hari,78400,Paket Data,INDOSAT
+211,Freedom Kuota Harian 1GB/hari (Total 28GB) / 28 Hari + BONUS 3GB ,73300,Paket Data,INDOSAT
+212,Freedom Internet 21GB / 30 Hari + BONUS 3GB ,74000,Paket Data,INDOSAT
+213,Freedom Combo 30 GB / 30 Hari,83870,Paket Data,INDOSAT
+219,Freedom Kuota Harian 1GB/hari (Total 28GB) / 28 Hari,88300,Paket Data,INDOSAT
+220,Freedom Internet 24GB / 30 Hari + Bonus Kuota Zona Hingga 16GB,80000,Paket Data,INDOSAT
+221,Freedom Internet 28GB / 30 Hari,85800,Paket Data,INDOSAT
+222,Freedom U 35GB / 30 Hari,93650,Paket Data,INDOSAT
+229,Freedom Internet Longlife 20GB / 60 Hari,89000,Paket Data,INDOSAT
+230,Internet 12 GB 30 hari,89000,Paket Data,INDOSAT
+237,Freedom Combo L 26GB / 30 Hari,94300,Paket Data,INDOSAT
+238,Freedom U 10GB+25GB Apps / 30 Hari,97500,Paket Data,INDOSAT
+244,Freedom U 45GB / 30 Hari,106000,Paket Data,INDOSAT
+245,Freedom Combo 30GB / 30 Hari + Bonus 5GB,98500,Paket Data,INDOSAT
+246,Freedom Combo 40 GB / 30 Hari,105800,Paket Data,INDOSAT
+251,Freedom Internet 32GB / 30 Hari + BONUS 5GB ,98500,Paket Data,INDOSAT
+252,Freedom Internet 35GB / 30 Hari + Bonus Kuota Zona Hingga 25GB,100000,Paket Data,INDOSAT
+253,Freedom Internet 44GB / 30 Hari,107300,Paket Data,INDOSAT
+254,Freedom Internet 50GB / 30 Hari,119000,Paket Data,INDOSAT
+260,"[EKSKLUSIF] Freedom 25GB, 30 hari",99000,Paket Data,INDOSAT
+261,Freedom U 15GB+25GB Apps / 30 Hari,123800,Paket Data,INDOSAT
+262,Freedom Internet Hot Promo 100GB / 30 Hari,134100,Paket Data,INDOSAT
+268,Freedom Internet Longlife 30GB / 90 Hari,123500,Paket Data,INDOSAT
+269,Freedom Internet SENSASI 100GB / 30 Hari,125000,Paket Data,INDOSAT
+270,Freedom XL 41GB / 30 Hari,148000,Paket Data,INDOSAT
+275,Freedom Internet Longlife 36GB / 60 Hari,128500,Paket Data,INDOSAT
+276,Freedom Combo 50GB / 30 Hari + Bonus 7GB,148000,Paket Data,INDOSAT
+277,Freedom U Jumbo / 30 Hari,148800,Paket Data,INDOSAT
+278,Freedom Combo 60 GB / 30 Hari,161000,Paket Data,INDOSAT
+284,Freedom Internet 100GB / 30 Hari,147000,Paket Data,INDOSAT
+285,Freedom XXL 65GB / 30 Hari,197400,Paket Data,INDOSAT
+286,Freedom U Jumbo / 30 Hari,159750,Paket Data,INDOSAT
+292,Freedom Internet Longlife 54GB / 90 Hari,178500,Paket Data,INDOSAT
+293,Freedom Combo 50GB / 90 Hari,197500,Paket Data,INDOSAT
+294,Freedom Internet 200GB / 30 Hari,200000,Paket Data,INDOSAT
+300,Freedom Internet SENSASI 150GB / 30 Hari,214750,Paket Data,INDOSAT
+301,Freedom U 3GB+15GB Apps / 6 Bulan ,248150,Paket Data,INDOSAT
+302,Freedom Internet 100GB / 90 Hari,250000,Paket Data,INDOSAT
+308,Freedom Internet SENSASI 200GB / 30 Hari,268750,Paket Data,INDOSAT
+309,Freedom U 3GB+15GB Apps / 12 Bulan ,445100,Paket Data,INDOSAT
+0,Internet Volume 4GB,10000,Paket Data,SMARTFREN
+1,Internet Volume 6GB,19675,Paket Data,SMARTFREN
+2,Unlimited 20.000,24950,Paket Data,SMARTFREN
+3,Internet Volume 10GB,29650,Paket Data,SMARTFREN
+4,Unlimited Nonstop 30RB,34750,Paket Data,SMARTFREN
+5,Internet Volume 16GB,39600,Paket Data,SMARTFREN
+6,Unlimited 40.000,44950,Paket Data,SMARTFREN
+13,Vidio Platinum F1 All Screen 40K,39950,Paket Data,SMARTFREN
+14,Kuota Nonstop 10GB,44500,Paket Data,SMARTFREN
+15,Unlimited 60.000,64850,Paket Data,SMARTFREN
+22,Unlimited Harian 500MB 28 Hari,48700,Paket Data,SMARTFREN
+23,Vidio Diamond EPL Mobile 57K,56950,Paket Data,SMARTFREN
+30,Internet Volume 30GB,58900,Paket Data,SMARTFREN
+31,Kuota Nonstop 18GB,64000,Paket Data,SMARTFREN
+37,Smartfren Super 4G Unlimited Bulanan,69400,Paket Data,SMARTFREN
+38,Vidio FIFA World Cup QATAR 22 Mobile,66000,Paket Data,SMARTFREN
+39,Smartfren Super 4G Unlimited Bulanan,69800,Paket Data,SMARTFREN
+40,Smartfren Super 4G Unlimited Bulanan Auto,70000,Paket Data,SMARTFREN
+47,Unlimited 80.000,78950,Paket Data,SMARTFREN
+48,Plan Smartfren Kuota 2L,79800,Paket Data,SMARTFREN
+49,UNS 45 K Vidio FIFA World Cup QATAR 22 Mobile,96500,Paket Data,SMARTFREN
+54,Vidio FIFA World Cup QATAR 22 All screen,99950,Paket Data,SMARTFREN
+55,Internet Volume 60GB,98100,Paket Data,SMARTFREN
+56,Kuota Nonstop 30GB,98000,Paket Data,SMARTFREN
+57,Unlimited 100.000,98500,Paket Data,SMARTFREN
+64,Plan Smartfren Kuota 3L,113000,Paket Data,SMARTFREN
+65,UNS 70 K Vidio FIFA World Cup QATAR 22 Mobile,119900,Paket Data,SMARTFREN
+71,Plan Smartfren Kuota 4L,134000,Paket Data,SMARTFREN
+72,UNS 100 K Vidio FIFA World Cup QATAR 22 Mobile,149900,Paket Data,SMARTFREN
+73,Internet Volume 90GB,145000,Paket Data,SMARTFREN
+80,Unlimited 150.000,148500,Paket Data,SMARTFREN
+81,UNS 125 K Vidio FIFA World Cup QATAR 22 Mobile,179000,Paket Data,SMARTFREN
+82,Internet Volume 120GB,193300,Paket Data,SMARTFREN
+88,Unlimited 200.000,198000,Paket Data,SMARTFREN
+89,Internet Volume 100GB,297900,Paket Data,SMARTFREN
+90,Internet Volume 200GB,496264,Paket Data,SMARTFREN
+97,Internet Volume 420GB,994531,Paket Data,SMARTFREN
+0,Paket Internet OMG 100K (Zona),98100,Paket Data,Telkomsel
+1,Paket Internet OMG 150K (Zona),147900,Paket Data,Telkomsel
+2,Paket Internet OMG 200K (Zona),196000,Paket Data,Telkomsel
+3,Paket Internet OMG 30K (Zona),29800,Paket Data,Telkomsel
+4,Paket Internet OMG 50K (Zona),49800,Paket Data,Telkomsel
+5,Paket Internet OMG 75K (Zona),73700,Paket Data,Telkomsel
+6,Data 5.000,5900,Paket Data,Telkomsel
+12,Data 50MB 7 hari,4900,Paket Data,Telkomsel
+13,GamesMAX Ketengan Harian,5180,Paket Data,Telkomsel
+14,Kuota Telpon 5 Rb (85 Menit Tsel + 15 Menit All 1Hari),6200,Paket Data,Telkomsel
+19,Data 100MB 7 hari,7900,Paket Data,Telkomsel
+20,Data 10.000,10500,Paket Data,Telkomsel
+21,Data 250MB 7 hari,10000,Paket Data,Telkomsel
+22,GamesMAX Ketengan Mingguan,10100,Paket Data,Telkomsel
+28,Internet Harian 10K 1 Hari,10125,Paket Data,Telkomsel
+29,Paket Telepon 200 Menit / 1 Hari (185 Tsel &amp; 15 All),11500,Paket Data,Telkomsel
+30,Kuota Telpon 10 Rb (170 Menit Tsel + 50 Menit All 3Hari),13250,Paket Data,Telkomsel
+36,Data 500MB 15 hari,14900,Paket Data,Telkomsel
+38,GamesMAX Power Weekly FF,15100,Paket Data,Telkomsel
+44,GamesMAX Power Weekly MLBB,15100,Paket Data,Telkomsel
+45,Data 20.000,20000,Paket Data,Telkomsel
+46,GamesMAX Ketengan Bulanan,19950,Paket Data,Telkomsel
+52,Internet Harian 20K 1 Hari,20000,Paket Data,Telkomsel
+53,MAXstream 4GB,20000,Paket Data,Telkomsel
+54,Data 1GB 30 hari,22500,Paket Data,Telkomsel
+61,Data 750MB 7 hari,19500,Paket Data,Telkomsel
+62,"Data GameMAX 3GB, 25.000",24900,Paket Data,Telkomsel
+68,GamesMAX Power Silver FF,24990,Paket Data,Telkomsel
+69,GamesMAX Power Silver MLBB,24990,Paket Data,Telkomsel
+70,Gigamax Fit,25000,Paket Data,Telkomsel
+76,Internet Harian 25K 3 Hari,25150,Paket Data,Telkomsel
+77,Kuota Telpon 20 Rb (350 Menit Tsel + 30 Menit All Opr 7 Hari),23750,Paket Data,Telkomsel
+78,Paket MusicMAX Smule 25.000,24900,Paket Data,Telkomsel
+84,Paket NEW MusicMAX 25.000,25200,Paket Data,Telkomsel
+85,Telkomsel Data 25.000,24850,Paket Data,Telkomsel
+86,Telkomsel Data MAXstream 50.000,49700,Paket Data,Telkomsel
+92,Telkomsel Paket Bicara 25.000,24900,Paket Data,Telkomsel
+93,Paket Telepon 400 Menit / 3 Hari (370 Tsel &amp; 30 All),27500,Paket Data,Telkomsel
+94,Kuota Telpon 25 Rb (550 Menit Tsel + 50 Menit All Opr 7 Hari),28500,Paket Data,Telkomsel
+95,Internet Mingguan 30K,29850,Paket Data,Telkomsel
+102,Internet Harian 40K 3 Hari,39750,Paket Data,Telkomsel
+103,Paket Telepon 600 Menit / 7 Hari (550 Tsel &amp; 50 All),38750,Paket Data,Telkomsel
+109,Telkomsel Paket Bicara 40.000,39700,Paket Data,Telkomsel
+110,Data 2GB 30 hari,45300,Paket Data,Telkomsel
+118,Internet Mingguan 45K,44950,Paket Data,Telkomsel
+119,Vidio FIFA World Cup Qatar 2022 Mobile 49rb,48750,Paket Data,Telkomsel
+120,GamesMAX Power Gold FF,49800,Paket Data,Telkomsel
+128,GamesMAX Power Gold MLBB,49800,Paket Data,Telkomsel
+129,Gigamax Basic,49900,Paket Data,Telkomsel
+135,Telkomsel Data 50.000,49650,Paket Data,Telkomsel
+136,Paket Internet OMG 55K (Zona),55250,Paket Data,Telkomsel
+137,Kuota Telpon 50 Rb (1000 Menit Tsel + 100 Menit All Opr 30 Hari ),57000,Paket Data,Telkomsel
+143,Paket Telepon 1300 Menit / 15 Hari (1200 Tsel &amp; 100 All),59750,Paket Data,Telkomsel
+144,Paket Internet Bulanan OMG + Vidio 65K,64750,Paket Data,Telkomsel
+145,Up to 4.5GB + 2GB OMG,67600,Paket Data,Telkomsel
+151,GamesMAX Power Diamond FF,74690,Paket Data,Telkomsel
+152,GamesMAX Power Diamond MLBB,74690,Paket Data,Telkomsel
+153,Paket Internet OMG 75K (Zona),74450,Paket Data,Telkomsel
+159,Paket Telepon 2100 Menit / 30 Hari (2000 Tsel &amp; 100 All),79500,Paket Data,Telkomsel
+160,Data 8GB,84700,Paket Data,Telkomsel
+161,Paket Internet Bulanan OMG + Vidio 85K,84750,Paket Data,Telkomsel
+168,Vidio FIFA World Cup Qatar 2022 88rb,87500,Paket Data,Telkomsel
+169,Data 4GB 30 hari,91000,Paket Data,Telkomsel
+170,Vidio FIFA World Cup Qatar 2022 98rb,97700,Paket Data,Telkomsel
+177,Data 12GB,97500,Paket Data,Telkomsel
+178,Internet Combo 10GB,97500,Paket Data,Telkomsel
+184,MAXstream Gala 24GB,99300,Paket Data,Telkomsel
+185,Telkomsel Data MAXstream 100.000,97700,Paket Data,Telkomsel
+186,Telkomsel Paket Bicara 105.000,104900,Paket Data,Telkomsel
+193,Paket Internet OMG 110K (Zona),109000,Paket Data,Telkomsel
+194,Kuota Telpon 100 Rb (2250 Menit Tsel + 250 Menit All Opr 30 Hari ),115000,Paket Data,Telkomsel
+195,Paket Internet Bulanan OMG + Vidio 120K,119950,Paket Data,Telkomsel
+201,Paket Telepon 6500 Menit / 30 Hari (6250 Menit &amp; 250 All),130500,Paket Data,Telkomsel
+202,Data 8GB 30 hari,140500,Paket Data,Telkomsel
+203,Internet RoaMAX Qatar 150rb,133500,Paket Data,Telkomsel
+210,MAXstream Gala 40GB,148700,Paket Data,Telkomsel
+211,Telkomsel Data MAXstream 150.000,146800,Paket Data,Telkomsel
+212,Paket Internet OMG 160K (Zona),158500,Paket Data,Telkomsel
+219,Paket Internet Bulanan OMG + Vidio 170K,169550,Paket Data,Telkomsel
+220,Up to 50GB + 2GB MAXStream,194900,Paket Data,Telkomsel
+226,Paket Internet OMG 210K (Zona),210000,Paket Data,Telkomsel
+227,Paket Internet Bulanan OMG + Vidio 220K,219750,Paket Data,Telkomsel
+228,Data 300.000,297000,Paket Data,Telkomsel
+235,Internet RoaMAX Qatar 300rb,268700,Paket Data,Telkomsel
+0,Happy 1.5GB 1 hari + Kuota Lokal 0.5GB,3825,Paket Data,three
+1,Mix Small 5GB,4950,Paket Data,three
+2,Rahmat (Ramadan Hemat) 3GB 1 hari,4700,Paket Data,three
+3,Happy 2.5GB 1 hari + Kuota Lokal 0.5GB,5025,Paket Data,three
+4,Happy 2GB 1 Hari,5050,Paket Data,three
+5,Happy 1GB,6150,Paket Data,three
+6,Happy 1GB 3 Hari,6550,Paket Data,three
+12,H3RO 12 Diamonds MLBB + 1GB,7600,Paket Data,three
+13,Happy 1.5GB 7 hari + Kuota Lokal 1GB,8575,Paket Data,three
+14,Happy 3GB 2 Hari,9900,Paket Data,three
+20,Happy 5GB 1 hari + Kuota Lokal 2GB,9525,Paket Data,three
+21,Happy UL2GB (1GB + Unlimited YouTube),9500,Paket Data,three
+22,Mix Small 2.75GB,9900,Paket Data,three
+28,Happy 3GB 3 hari + Kuota Lokal 1GB,10475,Paket Data,three
+29,Happy 2GB,11900,Paket Data,three
+30,(closed) AON 3GB,13850,Paket Data,three
+36,(closed) AON 3GB,13975,Paket Data,three
+37,Happy 3GB,14200,Paket Data,three
+38,Happy 3GB 30 hari,14275,Paket Data,three
+44,Happy 5GB 3 hari + Kuota Lokal 2GB,14275,Paket Data,three
+45,Paket Bebas Bicara 60 Menit,14799,Paket Data,three
+46,AON 2.5GB + Kuota Lokal 1.5GB,15025,Paket Data,three
+53,AON 3GB,14800,Paket Data,three
+54,Happy 3GB 7 Hari,14450,Paket Data,three
+60,(closed) AON 4GB,17900,Paket Data,three
+61,Keep ON 3GB + VIU 3 Hari,20000,Paket Data,three
+62,(closed) AON 4GB,18825,Paket Data,three
+68,AON 3GB + Kuota Lokal 1.5GB,19400,Paket Data,three
+69,Cicilan 13GB Rp 60RB (Cicil 4x),19800,Paket Data,three
+70,Cicilan 13GB Rp60RB (Cicil 4X),19700,Paket Data,three
+71,Happy 5GB 7 hari + Kuota Lokal 3GB,19025,Paket Data,three
+77,Mix Small 3GB,19610,Paket Data,three
+78,Rahmat (Ramadan Hemat) 30GB 7 hari,18700,Paket Data,three
+79,AON 3.5GB + Kuota Lokal 3GB,19525,Paket Data,three
+85,AON 4GB,19050,Paket Data,three
+86,Happy 6GB 5 hari + Kuota Lokal 3GB,19975,Paket Data,three
+87,AON 4GB + Kuota Lokal 2.5GB,24000,Paket Data,three
+93,Cicilan 18GB Rp 80RB (Cicil 4x),24800,Paket Data,three
+94,Cicilan 18GB Rp80RB (Cicil 4X),24550,Paket Data,three
+95,Happy 5GB,24750,Paket Data,three
+101,Mix Small 3.75GB,24510,Paket Data,three
+102,(closed) AON 6GB,26950,Paket Data,three
+103,Keep ON 5GB + VIU 7 Hari,28600,Paket Data,three
+109,(closed) AON 6GB,28250,Paket Data,three
+110,Cicilan 23GB Rp 100RB (Cicil 4x),29800,Paket Data,three
+111,Cicilan 23GB Rp100RB (Cicil 4X),29800,Paket Data,three
+118,H3RO Max,28000,Paket Data,three
+119,Happy 7GB 30 hari + Kuota Lokal 4GB + TikTok 5GB,28525,Paket Data,three
+120,KeepOn 5GB + KlikFilm,29500,Paket Data,three
+126,Paket Bebas Bicara 150 Menit,29500,Paket Data,three
+127,(closed) AON 6GB,28550,Paket Data,three
+128,AON 6GB + Kuota Lokal 4GB,28550,Paket Data,three
+134,Mix Kuota ++ 1.25GB,33300,Paket Data,three
+135,H3RO 85 Diamonds MLBB + 5GB,33000,Paket Data,three
+136,Mix Combo 2GB + 20 mnt,35000,Paket Data,three
+143,(closed) AON 12GB,36500,Paket Data,three
+144,(closed) AON 12GB,37700,Paket Data,three
+150,AON 7GB + Kuota Lokal 4GB,38200,Paket Data,three
+151,(closed) AON 12GB,38100,Paket Data,three
+152,AON 9GB + Kuota Lokal 6GB,40025,Paket Data,three
+153,Happy 11GB 30 hari + Kuota Lokal 6GB + TikTok 5GB,42775,Paket Data,three
+159,[PROMO] Tri MAU 3GB,34900,Paket Data,three
+160,(closed) AON 16GB,45000,Paket Data,three
+161,(closed) AON 16GB,47150,Paket Data,three
+168,(closed) Happy 12GB,48500,Paket Data,three
+169,AddOn 12GB,47339,Paket Data,three
+170,AON 10GB + Kuota Lokal 6GB,47700,Paket Data,three
+177,Kuota 10GB + Genflix 30 hari,49350,Paket Data,three
+178,Mix Kuota ++ 2.25GB,50000,Paket Data,three
+184,Mix Super 10GB,49100,Paket Data,three
+185,Paket Bebas Bicara 250 Menit,49100,Paket Data,three
+186,Tri MAU 12GB,49500,Paket Data,three
+187,Kuota 10GB + Klikfilm 30 hari,49350,Paket Data,three
+194,(closed) AON 16GB,50500,Paket Data,three
+195,(closed) AON Unlimited 26GB,59900,Paket Data,three
+196,AON 12GB + Kuota Lokal 8GB,51050,Paket Data,three
+203,Happy 12GB,53000,Paket Data,three
+204,Happy 14GB 30 hari + Kuota Lokal 10GB + TikTok 5GB,52275,Paket Data,three
+210,AON 14GB + Kuota Lokal 7GB,57300,Paket Data,three
+211,Happy 18GB,57600,Paket Data,three
+212,Happy 18GB 30 hari + Kuota Lokal 10GB + TikTok 5GB,57025,Paket Data,three
+213,Keep ON 8.5GB + VIU 30 Hari,59350,Paket Data,three
+219,H3RO 170 Diamonds MLBB + 10GB,61500,Paket Data,three
+220,Kuota 10GB + Viu 30 hari ,64250,Paket Data,three
+221,(closed) AON UL 26GB,63250,Paket Data,three
+227,Happy 18GB,67500,Paket Data,three
+228,Happy 30GB 30 hari + Kuota Lokal 10GB + TikTok 5GB,66525,Paket Data,three
+229,[PROMO] Tri MAU 15GB,59900,Paket Data,three
+235,(closed) AON 26GB UL,68700,Paket Data,three
+236,AON Unlimited 26GB,69375,Paket Data,three
+237,AddOn 32GB,71300,Paket Data,three
+243,Mix Combo 32GB + 30 mnt,73510,Paket Data,three
+244,Happy UL 52GB,74500,Paket Data,three
+245,(closed) AON Unlimited 30GB,80000,Paket Data,three
+251,AON Unlimited 26GB,76500,Paket Data,three
+252,Happy 26GB,79300,Paket Data,three
+253,AddOn 38GB,81250,Paket Data,three
+259,Happy 42GB 30 hari + Kuota Lokal 8GB + TikTok 5GB,80775,Paket Data,three
+260,(closed) AON UL 30GB,82950,Paket Data,three
+261,(closed) AON 32GB,86800,Paket Data,three
+267,Mix Combo 38GB + 30mnt,89400,Paket Data,three
+268,Mix Super 24GB,88650,Paket Data,three
+269,[PROMO] Tri MAU 20GB,69900,Paket Data,three
+270,Happy 25GB,91000,Paket Data,three
+277,AON 30GB UL,92800,Paket Data,three
+278,(closed) AON 32GB,94500,Paket Data,three
+283,AON 40GB + Kuota Lokal 10GB,95050,Paket Data,three
+284,AON 40GB + Kuota Lokal 10GB,95100,Paket Data,three
+285,H3RO 296 Diamonds MLBB + 25GB,94500,Paket Data,three
+286,Mix Super 30GB,98300,Paket Data,three
+292,(closed) AON Unlimited 36GB,104924,Paket Data,three
+293,Happy 45GB,105800,Paket Data,three
+294,Happy 55GB 30 hari + Kuota Lokal 15GB + TikTok 5GB,106050,Paket Data,three
+301,MovieMax 30GB + Genflix,113500,Paket Data,three
+302,MovieMax 30GB + KlikFilm,113500,Paket Data,three
+308,MovieMax 30GB + Viu,113500,Paket Data,three
+309,Home 117GB,112000,Paket Data,three
+310,AON 36GB UL,114300,Paket Data,three
+316,Home 120GB,112950,Paket Data,three
+317,Home 117GB,118900,Paket Data,three
+318,Happy 100GB,131500,Paket Data,three
+324,Happy 100GB 30 Hari + Kuota Lokal 20GB + TikTok 5GB,131050,Paket Data,three
+325,Happy 130GB 30 hari + Kuota Lokal 20GB + TikTok 5GB,138000,Paket Data,three
+326,Happy 130GB 30 hari,142600,Paket Data,three
+333,Home 150GB,143000,Paket Data,three
+334,Home 150GB,141250,Paket Data,three
+0,XTRA Combo Lite 13GB,62000,Paket Data,XL
+1,XTRA Combo Lite 25GB,99000,Paket Data,XL
+2,XTRA Combo Lite 37GB,119500,Paket Data,XL
+3,XTRA Combo Lite 4.5GB,27500,Paket Data,XL
+4,XTRA Combo Lite 7GB,39000,Paket Data,XL
+5,XTRA Combo VIP 20GB+20GB &amp; XTRA Kuota TikTok 2GB,185000,Paket Data,XL
+6,XTRA Combo VIP 20GB+20GB &amp; XTRA Kuota Viu 5GB,185000,Paket Data,XL
+13,XTRA Combo VIP 35GB+35GB &amp; XTRA Kuota TikTok 2GB,241000,Paket Data,XL
+14,XTRA Combo VIP 35GB+35GB &amp; XTRA Kuota Viu 5GB,241000,Paket Data,XL
+21,"Xtra Edukasi 2GB, 1hr",1300,Paket Data,XL
+22,"Xtra Conference 2GB, 1hr",2300,Paket Data,XL
+29,"Xtra Edukasi 5GB, 3hr",2800,Paket Data,XL
+30,Blue 1GB| 2hr,4800,Paket Data,XL
+31,"Xtra Conference 5GB, 3hr",4300,Paket Data,XL
+38,"Hotrod 500MB, 7hari",4950,Paket Data,XL
+39,Kuota 100MB| 1hr + Voucher Steam Wallet 6rb,7100,Paket Data,XL
+40,"Xtra Edukasi 15GB, 7hr",8000,Paket Data,XL
+46,Blue 3GB| 2hr,9450,Paket Data,XL
+47,Hotrod 1GB / 7 hari,9000,Paket Data,XL
+48,Kuota 100MB| 1hr + Voucher Steam Wallet 8rb,9950,Paket Data,XL
+54,"Hotrod 1.5GB, 3hari",8950,Paket Data,XL
+55,"Xtra Kuota 30GB,  30 hari",11900,Paket Data,XL
+56,"AnyNet 400Mnt,  7 hari",11450,Paket Data,XL
+63,"Xtra Conference 15GB, 7hr",10300,Paket Data,XL
+64,Xtra Hotrod Special 2GB| 7hr,11500,Paket Data,XL
+70,Xtra Combo Flex S 1.5GB 30 Hari,15600,Paket Data,XL
+71,Xtra Hotrod Special S| 7hr,13300,Paket Data,XL
+72,Xtra Hotrod Special 3GB| 7hr,14550,Paket Data,XL
+78,Xtra ON 1GB,13500,Paket Data,XL
+79,Kuota 250MB| 1hr + Voucher Steam Wallet 12rb,14900,Paket Data,XL
+80,Xtra Hotrod Special M| 7hr,16150,Paket Data,XL
+87,Xtra Hotrod Special 4.5GB| 7hr,19550,Paket Data,XL
+88,"Hotrod 2GB, 7hari",16950,Paket Data,XL
+89,Xtra Hotrod Special L| 7hr,20900,Paket Data,XL
+96,Data 1GB / 30 hari,25100,Paket Data,XL
+97,Xtra Hotrod Special 6.5GB| 7hr,24550,Paket Data,XL
+102,Xtra ON 2GB,22500,Paket Data,XL
+103,Xtra Hotrod Special XL| 7hr,25650,Paket Data,XL
+104,"Hotrod 3GB, 7hari",23250,Paket Data,XL
+105,Xtra Combo Flex S+ 3GB + Kuota Area Hingga 7GB + Bonus Flex,29750,Paket Data,XL
+106,"HotRod 24Jam 30hr,  800MB",28500,Paket Data,XL
+113,XTRA Bicara Nelpon &amp; Internet,28875,Paket Data,XL
+114,Xtra Combo Flex M 4GB 30 Hari,36000,Paket Data,XL
+120,"XTRA Bicara Nelpon,  SMS &amp; Internet",33250,Paket Data,XL
+121,Xtra Combo Flex M 5GB + Kuota Area Hingga 10GB + Bonus Flex,39300,Paket Data,XL
+122,"AnyNet 150Mnt,  30 hari",38000,Paket Data,XL
+128,Xtra Combo Flex 4GB+Kuota Area s/d 1.5GB+Bonus Flex,42950,Paket Data,XL
+129,Xtra Combo Flex L 9GB 30 Hari,54350,Paket Data,XL
+130,"HotRod 24Jam 30hr,  1.5GB",47500,Paket Data,XL
+137,Xtra Combo Flex L 9GB + Kuota Area Hingga 18GB + Bonus Flex,57500,Paket Data,XL
+138,XTRA Combo 5GB + 10GB + Bonus Pulsa 10.000,56000,Paket Data,XL
+144,XTRA Combo 5GB + 10GB + Bonus Pulsa 2.000,58000,Paket Data,XL
+145,Xtra Combo Double Youtube 5GB+10GB,57200,Paket Data,XL
+146,"AnyNet 250Mnt,  30 hari",57500,Paket Data,XL
+152,"HotRod 24Jam 30hr,  3GB",56840,Paket Data,XL
+153,Akrab 28GB| 2 Anggota| 30 Hari,59550,Paket Data,XL
+154,Paket Akrab 28GB + Bonus Pulsa 10.000,61000,Paket Data,XL
+160,Paket Akrab 28GB + Bonus Pulsa 2.000,60900,Paket Data,XL
+161,Xtra Combo Flex 10GB+Kuota Area s/d 14GB+Bonus Flex,61750,Paket Data,XL
+162,Kuota 1GB| 3hr + Voucher Steam Wallet 45rb,52700,Paket Data,XL
+168,Xtra Combo Flex XL 15GB 30 Hari,77000,Paket Data,XL
+169,XTRA Combo VIP 5GB + 10GB + Bonus Pulsa 10.000,68000,Paket Data,XL
+170,XTRA Combo VIP 5GB + 10GB + Bonus Pulsa 2.000,65700,Paket Data,XL
+176,Xtra Combo VIP Double Youtube 5GB+10GB,65575,Paket Data,XL
+177,"AnyNet 325Mnt,  30 hari",71500,Paket Data,XL
+178,XTRA Combo VIP 5GB+5GB + Nelpon 30 Menit,74170,Paket Data,XL
+183,Xtra Combo Flex XL 15GB + Kuota Area Hingga 30GB + Bonus Flex,80000,Paket Data,XL
+184,Kuota 1GB| 3hr + Voucher Steam Wallet 60rb,69620,Paket Data,XL
+185,XTRA Combo 10GB + 20GB + Bonus Pulsa 20.000,88000,Paket Data,XL
+186,XTRA Combo 10GB + 20GB + Bonus Pulsa 5.000,88000,Paket Data,XL
+192,Xtra Combo Double Youtube 10GB+20GB,85500,Paket Data,XL
+193,Xtra Combo Flex 20GB+Kuota Area s/d 22GB+Bonus Flex,90150,Paket Data,XL
+194,XTRA Combo VIP 10GB + 20GB + Bonus Pulsa 20.000,98000,Paket Data,XL
+200,XTRA Combo VIP 10GB + 20GB + Bonus Pulsa 5.000,98000,Paket Data,XL
+201,XTRA Combo VIP 10GB+10GB &amp; Free Fire 10GB,98700,Paket Data,XL
+202,XTRA Combo VIP 10GB+10GB + Instagram 2GB,98700,Paket Data,XL
+208,XTRA Combo VIP 10GB+10GB + Joox 10GB,98620,Paket Data,XL
+209,XTRA Combo VIP 10GB10GB  Mobile Legends 10GB,98700,Paket Data,XL
+210,Xtra Combo VIP Double Youtube 10GB+20GB,92907,Paket Data,XL
+217,"AnyNet 300Mnt,  90 hari",95000,Paket Data,XL
+218,"HotRod 24Jam 30hr,  6GB",97250,Paket Data,XL
+224,Xtra Combo Flex XXL 26GB 30 Hari,105850,Paket Data,XL
+225,XTRA Combo VIP 10GB+10GB + Nelpon 30 Menit,102070,Paket Data,XL
+226,XTRA Combo VIP 10GB+10GB + Netflix 5GB,102300,Paket Data,XL
+232,Xtra Combo Flex XXL 30GB + Kuota Area Hingga 60GB + Bonus Flex,108500,Paket Data,XL
+233,Xtra Combo Flex XXXL 36GB 30 Hari,130500,Paket Data,XL
+234,Kuota 2GB| 3hr + Voucher PlayStation Store Cash Cards (ID) 100rb,120750,Paket Data,XL
+235,Akrab 63GB| 2 Anggota| 30 Hari,119073,Paket Data,XL
+241,Kuota 2GB| 3hr + Voucher Steam Wallet 90rb,102850,Paket Data,XL
+242,Paket Akrab 63GB + Bonus Pulsa 20.000,123000,Paket Data,XL
+243,Paket Akrab 63GB + Bonus Pulsa 5.000,123000,Paket Data,XL
+249,XTRA Combo 15GB + 30GB + Bonus Pulsa 10.000,128000,Paket Data,XL
+250,XTRA Combo 15GB + 30GB + Bonus Pulsa 30.000,128000,Paket Data,XL
+251,Xtra Combo Double Youtube 15GB+30GB,126250,Paket Data,XL
+257,"HotRod 24Jam 30hr,  8GB",124900,Paket Data,XL
+258,Xtra Combo Flex 35GB+Kuota Area s/d 40GB+Bonus Flex,127950,Paket Data,XL
+259,Xtra Combo Flex XXXL 60GB + Kuota Area Hingga 120GB + Bonus Flex,131000,Paket Data,XL
+265,XTRA Combo VIP 15GB + 30GB + Bonus Pulsa 10.000,138000,Paket Data,XL
+266,XTRA Combo VIP 15GB + 30GB + Bonus Pulsa 30.000,138000,Paket Data,XL
+267,XTRA Combo VIP 15GB+15GB &amp; XTRA Kuota Viu 5GB,138000,Paket Data,XL
+273,XTRA Combo VIP 15GB+15GB + Instagram 2GB,138600,Paket Data,XL
+274,Xtra Combo VIP Double Youtube 15GB+30GB,135850,Paket Data,XL
+275,[Eksklusif] XTRA Combo VIP 15GB+15GB &amp; Free Fire 10GB,137610,Paket Data,XL
+281,[Eksklusif] XTRA Combo VIP 15GB+15GB + Joox 10GB,137650,Paket Data,XL
+282,[Eksklusif] XTRA Combo VIP 15GB+15GB + Mobile Legends 10GB,137650,Paket Data,XL
+283,"AnyNet 500Mnt,  30 hari",137080,Paket Data,XL
+290,XTRA Combo VIP 15GB+15GB + Nelpon 30 Menit,140000,Paket Data,XL
+291,XTRA Combo VIP 15GB+15GB + Netflix 5GB,140000,Paket Data,XL
+292,"AnyNet 500Mnt,  90 hari",146600,Paket Data,XL
+299,Kuota 2GB| 3hr + Voucher Steam Wallet 120rb,137120,Paket Data,XL
+300,XTRA Combo 20GB + 40GB + Bonus Pulsa 15.000,178000,Paket Data,XL
+306,XTRA Combo 20GB + 40GB + Bonus Pulsa 40.000,178000,Paket Data,XL
+307,Xtra Combo Double Youtube 20GB+40GB,171596,Paket Data,XL
+308,Xtra Combo VIP Double Youtube 20GB+40GB,177368,Paket Data,XL
+314,"HotRod 24Jam 30hr,  12GB",170000,Paket Data,XL
+315,Xtra Combo Flex 48GB+Kuota Area s/d 67GB+Bonus Flex,175950,Paket Data,XL
+316,XTRA Combo VIP 20GB + 40GB + Bonus Pulsa 15.000,188000,Paket Data,XL
+322,XTRA Combo VIP 20GB + 40GB + Bonus Pulsa 40.000,188000,Paket Data,XL
+323,XTRA Combo VIP 20GB+20GB &amp; XTRA Kuota Free Fire 10GB| 30hr| 189rb,184100,Paket Data,XL
+324,XTRA Combo VIP 20GB+20GB &amp; XTRA Kuota Instagram 2GB| 30hr| 189rb,184070,Paket Data,XL
+330,XTRA Combo VIP 20GB+20GB &amp; XTRA Kuota Joox 10GB| 30hr| 189rb,184070,Paket Data,XL
+331,XTRA Combo VIP 20GB+20GB &amp; XTRA Kuota Mobile Legend 10GB| 30hr| 189rb,184100,Paket Data,XL
+332,XTRA Combo VIP 20GB+20GB + Nelpon 30 Menit,186000,Paket Data,XL
+338,Akrab 144GB| 3 Anggota| 30 Hari,194755,Paket Data,XL
+339,Paket Akrab 144GB + Bonus Pulsa 10.000,204000,Paket Data,XL
+340,Paket Akrab 144GB + Bonus Pulsa 40.000,204000,Paket Data,XL
+341,"HotRod 24Jam 30hr,  16GB",208000,Paket Data,XL
+347,XTRA Combo 35GB + 70GB + Bonus Pulsa 20.000,238000,Paket Data,XL
+348,XTRA Combo 35GB + 70GB + Bonus Pulsa 50.000,238000,Paket Data,XL
+349,Xtra Combo Double Youtube 35GB+70GB,229114,Paket Data,XL
+350,Kuota 2GB| 3hr + Voucher PlayStation Store Cash Cards (ID) 200rb,240950,Paket Data,XL
+357,Xtra Combo Flex 80GB+Kuota Area s/d 105GB+Bonus Flex,232450,Paket Data,XL
+358,XTRA Combo VIP 35GB + 70GB + Bonus Pulsa 20.000,248000,Paket Data,XL
+359,XTRA Combo VIP 35GB + 70GB + Bonus Pulsa 50.000,248000,Paket Data,XL
+366,XTRA Combo VIP 35GB+35GB &amp; XTRA Kuota Free Fire 10GB| 30hr| 249rb,240870,Paket Data,XL
+367,XTRA Combo VIP 35GB+35GB &amp; XTRA Kuota Instagram 2GB| 30hr| 249rb,242000,Paket Data,XL
+368,XTRA Combo VIP 35GB+35GB &amp; XTRA Kuota Joox 10GB| 30hr| 249rb,240800,Paket Data,XL
+374,XTRA Combo VIP 35GB+35GB &amp; XTRA Kuota Mobile Legend 10GB| 30hr| 249rb,240870,Paket Data,XL
+375,Xtra Combo VIP Double Youtube 35GB+70GB,233675,Paket Data,XL
+376,XTRA Combo VIP 35GB+35GB + Nelpon 30 Menit,241600,Paket Data,XL
+382,Akrab 260GB| 4 Anggota| 30 Hari,302727,Paket Data,XL
+383,Paket Akrab 260GB + Bonus Pulsa 15.000,315000,Paket Data,XL
+384,Paket Akrab 260GB + Bonus Pulsa 60.000,315000,Paket Data,XL
+391,Kuota 2GB| 3hr + Voucher Steam Wallet 250rb,285620,Paket Data,XL
+392,Kuota 2GB| 3hr + Voucher PlayStation Store Cash Cards (ID) 400rb,482250,Paket Data,XL
+393,Akrab 460GB| 4 Anggota| 30 Hari,487391,Paket Data,XL
+400,Paket Akrab 460GB + Bonus Pulsa 100.000,510000,Paket Data,XL
+401,Paket Akrab 460GB + Bonus Pulsa 50.000,510000,Paket Data,XL
+402,Kuota 2GB| 3hr + Voucher Steam Wallet 400rb,456250,Paket Data,XL
+409,"XTRA Combo 6GB,  12 bulan (M)",542600,Paket Data,XL
+410,Kuota 2GB| 3hr + Voucher Steam Wallet 600rb,685250,Paket Data,XL
+416,"XTRA Combo 12GB,  12 bulan (L)",802700,Paket Data,XL
+417,"XTRA Combo 18GB,  12 bulan (XL)",1152700,Paket Data,XL
+418,"XTRA Combo 30GB,  12 bulan (2XL)",1502700,Paket Data,XL
+419,"XTRA Combo 42GB,  12 bulan (3XL)",2002600,Paket Data,XL
+0,+ Power Social Add-On (1 hari),3000,Paket Data,Live.On
+1,+ Power Stream Add-On (1 hari),5000,Paket Data,Live.On
+2,+ 50 SMS Add-On,10000,Paket Data,Live.On
+3,+1GB Data Add-On,10000,Paket Data,Live.On
+4,+30 Menit Call Add-On,10000,Paket Data,Live.On
+5,+ Ultra Social Add-On (7 hari),15000,Paket Data,Live.On
+6,+2GB Data Add-On,17000,Paket Data,Live.On
+12,+60 Menit Call Add-On,17000,Paket Data,Live.On
+13,+ Ultra Stream Add-On (7 hari),24500,Paket Data,Live.On
+14,+100 Menit Call Add-On,25000,Paket Data,Live.On
+21,+5GB Data Add-On,30000,Paket Data,Live.On
+22,+ Super Social Add-On (30 hari),49000,Paket Data,Live.On
+28,Paket Power On Recharge 25GB (30 Hari),80000,Paket Data,Live.On
+29,+ Super Stream Add-On (30 hari),98000,Paket Data,Live.On
+30,Paket Power Full Recharge 50GB (30 Hari),123000,Paket Data,Live.On
+0,PLN Prepaid 20000,20100,PLN,
+2,PLN Prepaid 50000,50100,PLN,
+4,PLN Prepaid 100000,100100,PLN,
+5,PLN Prepaid 200000,200100,PLN,
+6,PLN Prepaid 500000,500100,PLN,
+12,PLN Prepaid 1000000,1000100,PLN,
+13,PLN Prepaid 5000000,5000100,PLN,
+14,PLN Prepaid 10000000,10000100,PLN,
+0,Free Fire 100 Diamonds,17760,Voucher Game,Garena Free Fire Powered by Google Play
+1,Free Fire 310 Diamonds,54390,Voucher Game,Garena Free Fire Powered by Google Play
+2,Free Fire 520 Diamonds,85470,Voucher Game,Garena Free Fire Powered by Google Play
+3,Free Fire 1060 Diamonds,187590,Voucher Game,Garena Free Fire Powered by Google Play
+4,Free Fire 2180 Diamonds,354855,Voucher Game,Garena Free Fire Powered by Google Play
+5,Free Fire 5600 Diamonds,822063,Voucher Game,Garena Free Fire Powered by Google Play
+0,Unipin Voucher IDR 5000,4785,Voucher Game,Unipin Voucher
+1,Unipin Voucher IDR 10000,9675,Voucher Game,Unipin Voucher
+2,Unipin Voucher IDR 20000,19250,Voucher Game,Unipin Voucher
+3,Unipin Voucher IDR 50000,48000,Voucher Game,Unipin Voucher
+4,Unipin Voucher IDR 100000,96000,Voucher Game,Unipin Voucher
+5,Unipin Voucher IDR 300000,288000,Voucher Game,Unipin Voucher
+6,Unipin Voucher IDR 500000,477500,Voucher Game,Unipin Voucher
+0,Mobile Legends 50+5 Diamonds,16500,Voucher Game,Mobile Legends Powered by Google Play
+1,Mobile Legends 50+5 Diamonds,16650,Voucher Game,Mobile Legends Powered by Google Play
+2,Mobile Legends 250+25 Diamonds,83250,Voucher Game,Mobile Legends Powered by Google Play
+3,Mobile Legends 500+65 Diamonds,165390,Voucher Game,Mobile Legends Powered by Google Play
+4,Twilight Pass,165390,Voucher Game,Mobile Legends Powered by Google Play
+5,Mobile Legends 1000+155 Diamonds,331890,Voucher Game,Mobile Legends Powered by Google Play
+6,Mobile Legends 1500+265 Diamonds,487290,Voucher Game,Mobile Legends Powered by Google Play
+13,Mobile Legends 2500+475 Diamonds,820290,Voucher Game,Mobile Legends Powered by Google Play
+0,PUBG Mobile 60 UC,16500,Voucher Game,PUBG Mobile Powered by Google Play
+1,PUBG Mobile 60 UC,16665,Voucher Game,PUBG Mobile Powered by Google Play
+2,PUBG Mobile 300 + 25 UC,83505,Voucher Game,PUBG Mobile Powered by Google Play
+3,PUBG Mobile 600 + 60 UC,165540,Voucher Game,PUBG Mobile Powered by Google Play
+4,PUBG Mobile1500 + 300 UC,386885,Voucher Game,PUBG Mobile Powered by Google Play
+5,PUBG Mobile 3000 + 850 UC,795680,Voucher Game,PUBG Mobile Powered by Google Play
+0,Clash of Clans 80 Gems,17760,Voucher Game,Clash of Clans Powered by Google Play
+1,Clash of Clans 500 Gems,82905,Voucher Game,Clash of Clans Powered by Google Play
+2,Clash of Clans 1200 Gems,187590,Voucher Game,Clash of Clans Powered by Google Play
+3,Clash of Clans 2500 Gems,343465,Voucher Game,Clash of Clans Powered by Google Play
+4,Clash of Clans 6500 Gems,795680,Voucher Game,Clash of Clans Powered by Google Play
+0,Lords Mobile 280 gems,32190,Voucher Game,Lords Mobile Powered by Google Play
+1,Lords Mobile 800 gems,83430,Voucher Game,Lords Mobile Powered by Google Play
+2,Lords Mobile 1700 gems,160430,Voucher Game,Lords Mobile Powered by Google Play
+3,Lords Mobile 3600 gems,321935,Voucher Game,Lords Mobile Powered by Google Play
+4,Lords Mobile 9500 gems,795680,Voucher Game,Lords Mobile Powered by Google Play
+0,Rise of Kingdoms 200 Gems,16650,Voucher Game,Rise of Kingdoms Powered by Google Play
+1,Rise of Kingdoms 1050 Gems,83250,Voucher Game,Rise of Kingdoms Powered by Google Play
+2,Rise of Kingdoms 2200 Gems,160430,Voucher Game,Rise of Kingdoms Powered by Google Play
+3,Rise of Kingdoms 4600 Gems,321935,Voucher Game,Rise of Kingdoms Powered by Google Play
+4,Rise of Kingdoms 12000 Gems,795680,Voucher Game,Rise of Kingdoms Powered by Google Play
+0,20000 Coins,29970,Voucher Game,8 Ball Pool Powered by Google Play
+1,52000 Coins,80755,Voucher Game,8 Ball Pool Powered by Google Play
+2,112000 Coins,160430,Voucher Game,8 Ball Pool Powered by Google Play
+3,256000 Coins,321935,Voucher Game,8 Ball Pool Powered by Google Play
+4,800000 Coins,795680,Voucher Game,8 Ball Pool Powered by Google Play
+0,80 CP,16650,Voucher Game,Call of Duty Mobile Powered by Google Play
+1,400 + 20 CP,83250,Voucher Game,Call of Duty Mobile Powered by Google Play
+2,800 + 80 CP,160430,Voucher Game,Call of Duty Mobile Powered by Google Play
+3,2000 + 400 CP,386535,Voucher Game,Call of Duty Mobile Powered by Google Play
+4,4000 + 1000 CP,795680,Voucher Game,Call of Duty Mobile Powered by Google Play
+5,8000 + 2800 CP,1613975,Voucher Game,Call of Duty Mobile Powered by Google Play
+0,40 pearls,16686,Voucher Game,Black Desert Mobile Powered by Google Play
+1,122 pearls,48450,Voucher Game,Black Desert Mobile Powered by Google Play
+2,204 pearls,80755,Voucher Game,Black Desert Mobile Powered by Google Play
+3,410 pearls,160430,Voucher Game,Black Desert Mobile Powered by Google Play
+4,1232 pearls,472670,Voucher Game,Black Desert Mobile Powered by Google Play
+5,2055 pearls,795680,Voucher Game,Black Desert Mobile Powered by Google Play
+0,5000 cash,5045,Voucher Game,Among Us Powered by Google Play
+1,20000 cash,20226,Voucher Game,Among Us Powered by Google Play
+2,50000 cash,50564,Voucher Game,Among Us Powered by Google Play
+0,7 funds,15540,Voucher Game,One Punch Man Powered by Google Play
+1,35 funds,80755,Voucher Game,One Punch Man Powered by Google Play
+2,70 funds,160430,Voucher Game,One Punch Man Powered by Google Play
+3,105 funds,235795,Voucher Game,One Punch Man Powered by Google Play
+4,210 funds,472670,Voucher Game,One Punch Man Powered by Google Play
+5,350 funds,795680,Voucher Game,One Punch Man Powered by Google Play
+6,700 funds,1613975,Voucher Game,One Punch Man Powered by Google Play
+0,60 Genesis Crystal,17760,Voucher Game,Genshin Impact Powered by Google Play
+1,300 Genesis Crystal,85060,Voucher Game,Genshin Impact Powered by Google Play
+2,980 Genesis Crystal,273900,Voucher Game,Genshin Impact Powered by Google Play
+3,1980 Genesis Cyrstal,515740,Voucher Game,Genshin Impact Powered by Google Play
+4,3280 Genesis Crystal,860285,Voucher Game,Genshin Impact Powered by Google Play
+5,6480 Genesis Crystal,1613975,Voucher Game,Genshin Impact Powered by Google Play
+0,120.000 Zeny,31225,Voucher Game,Ragnarok Mobile : Eternal Love Powered by Google Play
+1,30 Big Cat Coin,85060,Voucher Game,Ragnarok Mobile : Eternal Love Powered by Google Play
+2,300.000 Zeny,85060,Voucher Game,Ragnarok Mobile : Eternal Love Powered by Google Play
+3,600.000 Zeny,160430,Voucher Game,Ragnarok Mobile : Eternal Love Powered by Google Play
+4,1.200.000 Zeny,321935,Voucher Game,Ragnarok Mobile : Eternal Love Powered by Google Play
+5,120 Big Cat Coin,321935,Voucher Game,Ragnarok Mobile : Eternal Love Powered by Google Play
+6,1.980.000 Zeny,515740,Voucher Game,Ragnarok Mobile : Eternal Love Powered by Google Play
+12,2.980.000 Zeny,795680,Voucher Game,Ragnarok Mobile : Eternal Love Powered by Google Play
+13,298 Big Cat Coin,795680,Voucher Game,Ragnarok Mobile : Eternal Love Powered by Google Play
+14,5.980.000 Zeny,1613975,Voucher Game,Ragnarok Mobile : Eternal Love Powered by Google Play
+21,598 Big Cat Coin,1613975,Voucher Game,Ragnarok Mobile : Eternal Love Powered by Google Play
+0,Minecraft 1720 Coins,170200,Voucher Game,Minecraft
+1,Minecraft 3500 Coins,340300,Voucher Game,Minecraft
+2,Gift Code $26.95,395000,Voucher Game,Minecraft
+0,Kode Voucher Google Play 5.000 (belum termasuk PPN 10%),5000,Voucher Game,Kode Voucher Google Play
+1,Kode Voucher Google Play 10.000 (belum termasuk PPN 10%),10000,Voucher Game,Kode Voucher Google Play
+2,Kode Voucher Google Play 20.000 (belum termasuk PPN 10%),21500,Voucher Game,Kode Voucher Google Play
+3,Kode Voucher Google Play 50.000 (belum termasuk PPN 10%),54000,Voucher Game,Kode Voucher Google Play
+4,Kode Voucher Google Play 100.000 (belum termasuk PPN 10%),107000,Voucher Game,Kode Voucher Google Play
+5,Kode Voucher Google Play 150.000 (belum termasuk PPN 10%),160500,Voucher Game,Kode Voucher Google Play
+6,Kode Voucher Google Play 300.000 (belum termasuk PPN 10%),320500,Voucher Game,Kode Voucher Google Play
+12,Kode Voucher Google Play 500.000 (belum termasuk PPN 10%),534000,Voucher Game,Kode Voucher Google Play
+13,Kode Voucher Google Play 750.000,751622,Voucher Game,Kode Voucher Google Play
+14,Kode Voucher Google Play 1.000.000,973000,Voucher Game,Kode Voucher Google Play
+15,Kode Voucher Google Play 1.500.000,1500000,Voucher Game,Kode Voucher Google Play
+0,Razer PIN 10.000,11580,Voucher Game,Razer Gold
+1,Razer PIN 20.000,21230,Voucher Game,Razer Gold
+2,Razer PIN 50.000,49500,Voucher Game,Razer Gold
+3,Razer PIN 100.000,96500,Voucher Game,Razer Gold
+4,Razer PIN 200.000,193000,Voucher Game,Razer Gold
+5,Razer PIN 500.000,482500,Voucher Game,Razer Gold
+0,Steam 6.000,6180,Voucher Game,Steam Wallet IDR
+1,Steam 8.000,8185,Voucher Game,Steam Wallet IDR
+2,Steam 12.000,12000,Voucher Game,Steam Wallet IDR
+3,Steam 45.000,45769,Voucher Game,Steam Wallet IDR
+4,Steam 60.000,60969,Voucher Game,Steam Wallet IDR
+5,Steam 90.000,91536,Voucher Game,Steam Wallet IDR
+6,Steam 120.000,122104,Voucher Game,Steam Wallet IDR
+12,Steam 250.000,254231,Voucher Game,Steam Wallet IDR
+13,Steam 400.000,465000,Voucher Game,Steam Wallet IDR
+14,Steam 600.000,610187,Voucher Game,Steam Wallet IDR
+0,Megaxus 10.000 Mi Cash,10000,Voucher Game,Megaxus
+1,Megaxus 20.000 Mi Cash,20000,Voucher Game,Megaxus
+2,Megaxus 50.000 Mi Cash,50000,Voucher Game,Megaxus
+3,Megaxus 100.000 Mi Cash,100000,Voucher Game,Megaxus
+4,Megaxus 200.000 Mi Cash,218500,Voucher Game,Megaxus
+5,Megaxus 500.000 Mi Cash,540500,Voucher Game,Megaxus
+0,12 Month Membership,348500,Voucher Game,Nintendo eShop
+1,3 Month Membership,140900,Voucher Game,Nintendo eShop
+2,Nintendo eShop 10,151000,Voucher Game,Nintendo eShop
+3,Nintendo eShop 20,300000,Voucher Game,Nintendo eShop
+4,Nintendo eShop 35,520000,Voucher Game,Nintendo eShop
+5,Nintendo eShop 50,745000,Voucher Game,Nintendo eShop
+0,Steam Wallet USD 5,80500,Voucher Game,Steam Wallet (USD)
+1,Steam Wallet USD 10,160500,Voucher Game,Steam Wallet (USD)
+2,Steam Wallet USD 15,240500,Voucher Game,Steam Wallet (USD)
+3,Steam Wallet USD 20,325000,Voucher Game,Steam Wallet (USD)
+4,Steam Wallet USD 30,480500,Voucher Game,Steam Wallet (USD)
+5,Steam Wallet USD 50,864500,Voucher Game,Steam Wallet (USD)
+0,Valorant 420 Coins,50000,Voucher Game,Valorant
+1,Valorant 700 Coins,80000,Voucher Game,Valorant
+2,Valorant 1375 Coins,150000,Voucher Game,Valorant
+3,Valorant 2400 Coins,250000,Voucher Game,Valorant
+4,Valorant 4000 Coins,400000,Voucher Game,Valorant
+5,Valorant 8150 Coins,800000,Voucher Game,Valorant
+0,PlayStation Plus 3 month,255000,Voucher Game,PlayStation Plus
+1,PlayStation Plus 12 month,650000,Voucher Game,PlayStation Plus
+0,Game On IDR 15000,16000,Voucher Game,Game on
+1,Game On IDR 30000,32000,Voucher Game,Game on
+2,Game On IDR 50000,52500,Voucher Game,Game on
+3,Game On IDR 100000,103230,Voucher Game,Game on
+4,Game On IDR 200000,210000,Voucher Game,Game on
+5,Game On IDR 300000,310000,Voucher Game,Game on
+0,PUBG Early Bird key,34000,Voucher Game,PUBG
+1,PUBG Steam game key,213000,Voucher Game,PUBG
+0,Lyto Credits 3750 Coins,16000,Voucher Game,Lyto Credits
+1,Lyto Credits 7500 Coins,31000,Voucher Game,Lyto Credits
+2,Lyto Credits 12500 Coins,52000,Voucher Game,Lyto Credits
+3,Lyto Credits 25000 Coins,105000,Voucher Game,Lyto Credits
+4,Lyto Credits 50000 Coins,210000,Voucher Game,Lyto Credits
+5,Lyto Credits 75000 Coins,315000,Voucher Game,Lyto Credits
+0,Playwith 500 RPs,80000,Voucher Game,Playwith
+1,Playwith 1000 RPs,160000,Voucher Game,Playwith
+2,Playwith 2500 RPs,400000,Voucher Game,Playwith
+3,Playwith 5000 RPs,792000,Voucher Game,Playwith
+0,PlayStation Network IDR 100.000,123500,Voucher Game,PlayStation Network
+1,PlayStation Network IDR 200.000,246500,Voucher Game,PlayStation Network
+2,PlayStation Network IDR 400.000,484975,Voucher Game,PlayStation Network
+0,Aeria Point 5,78000,Voucher Game,Aeria Point
+1,Aeria Point 15,227000,Voucher Game,Aeria Point
+0,Ragnarok 15000 RO-Cash,15500,Voucher Game,Ragnarok
+1,Ragnarok 30000 RO-Cash,31000,Voucher Game,Ragnarok
+2,Ragnarok 50000 RO-Cash,52500,Voucher Game,Ragnarok
+3,Ragnarok 100000 RO-Cash,105000,Voucher Game,Ragnarok
+4,Ragnarok 200000 RO-Cash,210000,Voucher Game,Ragnarok
+5,Ragnarok 300000 RO-Cash,310000,Voucher Game,Ragnarok
+0,Karma Koin 10,172100,Voucher Game,Karma Koin
+1,Karma Koin 25,430500,Voucher Game,Karma Koin
+2,Karma Koin 50,859000,Voucher Game,Karma Koin
+0,Legends of Runeterra 420 Coins,50000,Voucher Game,Legends of Runeterra
+1,Legends of Runeterra 700 Coins,80000,Voucher Game,Legends of Runeterra
+2,Legends of Runeterra 1375 Coins,150000,Voucher Game,Legends of Runeterra
+3,Legends of Runeterra 2400 Coins,250000,Voucher Game,Legends of Runeterra
+4,Legends of Runeterra 4000 Coins,400000,Voucher Game,Legends of Runeterra
+5,Legends of Runeterra 8150 Coins,776000,Voucher Game,Legends of Runeterra
+0,$5 Gift Card (US),75200,Voucher Game,Xbox Live (US)
+1,$10 Gift Card (US),150000,Voucher Game,Xbox Live (US)
+2,$15 Gift Card (US),223800,Voucher Game,Xbox Live (US)
+3,3 Months Gold Membership,410000,Voucher Game,Xbox Live (US)
+4,$25 Gift Card (US),417600,Voucher Game,Xbox Live (US)
+5,12 Months Gold Membership,985000,Voucher Game,Xbox Live (US)
+0,WaveGame 1088 Coins,245000,Voucher Game,WaveGame
+1,WaveGame 210 Coins,49400,Voucher Game,WaveGame
+2,WaveGame 40 Coins,9800,Voucher Game,WaveGame
+3,WaveGame 435 Coins,98400,Voucher Game,WaveGame
+4,WaveGame 82 Coins,19600,Voucher Game,WaveGame
