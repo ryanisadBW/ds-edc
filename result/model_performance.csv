@@ -1,0 +1,23 @@
+Index,Model Name,Model,Accuracy,AUC,Recall,Prec.,F1,Kappa,MCC
+0,Random Forest Classifier,"Pipeline(memory=FastMemory(location=C:\Users\bukuw\AppData\Local\Temp\joblib),
+         steps=[('numerical_imputer',
+                 TransformerWrapper(exclude=None,
+                                    include=['age_on_core_days',
+                                             'age_on_ncore_days',
+                                             'age_on_accounting_days',
+                                             'est_daily_customer', 'count_trf',
+                                             'm0_transaxi_cnt', 'm0_Utang_cnt',
+                                             'lm_transaxi_cnt', 'lm_Utang_cnt',
+                                             'm2_transaxi_cnt', 'm2_Utang_cnt',
+                                             'm3_tra...
+                 RandomForestClassifier(bootstrap=True, ccp_alpha=0.0,
+                                        class_weight=None, criterion='gini',
+                                        max_depth=None, max_features='sqrt',
+                                        max_leaf_nodes=None, max_samples=None,
+                                        min_impurity_decrease=0.0,
+                                        min_samples_leaf=1, min_samples_split=2,
+                                        min_weight_fraction_leaf=0.0,
+                                        n_estimators=100, n_jobs=-1,
+                                        oob_score=False, random_state=123,
+                                        verbose=0, warm_start=False)]],
+         verbose=False)",0.693,0.689,0.439,0.364,0.397,0.337,0.339
