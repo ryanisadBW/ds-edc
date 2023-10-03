@@ -37481,3 +37481,170 @@ The default value of numeric_only in DataFrameGroupBy.mean is deprecated. In a f
 The default value of numeric_only in DataFrameGroupBy.mean is deprecated. In a future version, numeric_only will default to False. Either specify numeric_only or select only columns which should be valid for the function.
 
 
+2023-10-03 14:13:55,605:INFO:Initializing assign_model()
+2023-10-03 14:13:55,610:INFO:assign_model(self=<pycaret.clustering.oop.ClusteringExperiment object at 0x000001D761824160>, model=KMeans(n_clusters=4, random_state=123), transformation=True, score=True, verbose=True)
+2023-10-03 14:13:55,610:INFO:Checking exceptions
+2023-10-03 14:13:55,633:INFO:Determining Trained Model
+2023-10-03 14:13:55,644:INFO:Trained Model : K-Means Clustering
+2023-10-03 14:13:55,644:INFO:Copying data
+2023-10-03 14:13:56,495:INFO:Transformation parameter set to True. Assigned clusters are attached on transformed dataset.
+2023-10-03 14:13:56,835:INFO:(202485, 37)
+2023-10-03 14:13:56,836:INFO:assign_model() successfully completed......................................
+2023-10-03 14:14:03,878:INFO:Initializing assign_model()
+2023-10-03 14:14:03,878:INFO:assign_model(self=<pycaret.clustering.oop.ClusteringExperiment object at 0x000001D761824160>, model=KMeans(n_clusters=4, random_state=123), transformation=True, score=True, verbose=True)
+2023-10-03 14:14:03,879:INFO:Checking exceptions
+2023-10-03 14:14:03,879:INFO:Determining Trained Model
+2023-10-03 14:14:03,879:INFO:Trained Model : K-Means Clustering
+2023-10-03 14:14:03,879:INFO:Copying data
+2023-10-03 14:14:04,150:INFO:Transformation parameter set to True. Assigned clusters are attached on transformed dataset.
+2023-10-03 14:14:04,260:INFO:(202485, 37)
+2023-10-03 14:14:04,260:INFO:assign_model() successfully completed......................................
+2023-10-03 14:15:01,462:INFO:Initializing assign_model()
+2023-10-03 14:15:01,463:INFO:assign_model(self=<pycaret.clustering.oop.ClusteringExperiment object at 0x000001D761824160>, model=KMeans(n_clusters=4, random_state=123), transformation=True, score=True, verbose=True)
+2023-10-03 14:15:01,463:INFO:Checking exceptions
+2023-10-03 14:15:01,463:INFO:Determining Trained Model
+2023-10-03 14:15:01,463:INFO:Trained Model : K-Means Clustering
+2023-10-03 14:15:01,464:INFO:Copying data
+2023-10-03 14:15:02,478:INFO:Transformation parameter set to True. Assigned clusters are attached on transformed dataset.
+2023-10-03 14:15:02,950:INFO:(202485, 37)
+2023-10-03 14:15:02,952:INFO:assign_model() successfully completed......................................
+2023-10-03 14:15:43,332:INFO:Initializing assign_model()
+2023-10-03 14:15:43,332:INFO:assign_model(self=<pycaret.clustering.oop.ClusteringExperiment object at 0x000001D761824160>, model=KMeans(n_clusters=4, random_state=123), transformation=True, score=True, verbose=True)
+2023-10-03 14:15:43,333:INFO:Checking exceptions
+2023-10-03 14:15:43,333:INFO:Determining Trained Model
+2023-10-03 14:15:43,333:INFO:Trained Model : K-Means Clustering
+2023-10-03 14:15:43,333:INFO:Copying data
+2023-10-03 14:15:43,637:INFO:Transformation parameter set to True. Assigned clusters are attached on transformed dataset.
+2023-10-03 14:15:43,772:INFO:(202485, 37)
+2023-10-03 14:15:43,772:INFO:assign_model() successfully completed......................................
+2023-10-03 14:16:18,056:INFO:Initializing assign_model()
+2023-10-03 14:16:18,057:INFO:assign_model(self=<pycaret.clustering.oop.ClusteringExperiment object at 0x000001D761824160>, model=KMeans(n_clusters=4, random_state=123), transformation=True, score=True, verbose=True)
+2023-10-03 14:16:18,057:INFO:Checking exceptions
+2023-10-03 14:16:18,057:INFO:Determining Trained Model
+2023-10-03 14:16:18,057:INFO:Trained Model : K-Means Clustering
+2023-10-03 14:16:18,057:INFO:Copying data
+2023-10-03 14:16:18,422:INFO:Transformation parameter set to True. Assigned clusters are attached on transformed dataset.
+2023-10-03 14:16:18,578:INFO:(202485, 37)
+2023-10-03 14:16:18,578:INFO:assign_model() successfully completed......................................
+2023-10-03 14:18:03,062:INFO:Initializing plot_model()
+2023-10-03 14:18:03,062:INFO:plot_model(plot=elbow, fold=None, use_train_data=False, verbose=True, display=None, display_format=None, estimator=KMeans(n_clusters=4, random_state=123), feature_name=None, fit_kwargs=None, groups=None, label=False, plot_kwargs=None, save=False, scale=1, self=<pycaret.clustering.oop.ClusteringExperiment object at 0x000001D761824160>, system=True)
+2023-10-03 14:18:03,063:INFO:Checking exceptions
+2023-10-03 14:18:03,088:INFO:Preloading libraries
+2023-10-03 14:18:03,089:INFO:Copying training dataset
+2023-10-03 14:18:03,090:INFO:Plot type: elbow
+2023-10-03 14:18:03,292:INFO:Fitting Model
+2023-10-03 14:18:03,376:WARNING:c:\Users\bukuw\anaconda3\envs\workenv\lib\site-packages\sklearn\cluster\_kmeans.py:870: FutureWarning:
+
+The default value of `n_init` will change from 10 to 'auto' in 1.4. Set the value of `n_init` explicitly to suppress the warning
+
+
+2023-10-03 14:18:05,062:WARNING:c:\Users\bukuw\anaconda3\envs\workenv\lib\site-packages\sklearn\cluster\_kmeans.py:870: FutureWarning:
+
+The default value of `n_init` will change from 10 to 'auto' in 1.4. Set the value of `n_init` explicitly to suppress the warning
+
+
+2023-10-03 14:18:08,111:WARNING:c:\Users\bukuw\anaconda3\envs\workenv\lib\site-packages\sklearn\cluster\_kmeans.py:870: FutureWarning:
+
+The default value of `n_init` will change from 10 to 'auto' in 1.4. Set the value of `n_init` explicitly to suppress the warning
+
+
+2023-10-03 14:18:11,203:WARNING:c:\Users\bukuw\anaconda3\envs\workenv\lib\site-packages\sklearn\cluster\_kmeans.py:870: FutureWarning:
+
+The default value of `n_init` will change from 10 to 'auto' in 1.4. Set the value of `n_init` explicitly to suppress the warning
+
+
+2023-10-03 14:18:16,319:WARNING:c:\Users\bukuw\anaconda3\envs\workenv\lib\site-packages\sklearn\cluster\_kmeans.py:870: FutureWarning:
+
+The default value of `n_init` will change from 10 to 'auto' in 1.4. Set the value of `n_init` explicitly to suppress the warning
+
+
+2023-10-03 14:18:24,379:WARNING:c:\Users\bukuw\anaconda3\envs\workenv\lib\site-packages\sklearn\cluster\_kmeans.py:870: FutureWarning:
+
+The default value of `n_init` will change from 10 to 'auto' in 1.4. Set the value of `n_init` explicitly to suppress the warning
+
+
+2023-10-03 14:18:30,706:WARNING:c:\Users\bukuw\anaconda3\envs\workenv\lib\site-packages\sklearn\cluster\_kmeans.py:870: FutureWarning:
+
+The default value of `n_init` will change from 10 to 'auto' in 1.4. Set the value of `n_init` explicitly to suppress the warning
+
+
+2023-10-03 14:18:39,263:WARNING:c:\Users\bukuw\anaconda3\envs\workenv\lib\site-packages\sklearn\cluster\_kmeans.py:870: FutureWarning:
+
+The default value of `n_init` will change from 10 to 'auto' in 1.4. Set the value of `n_init` explicitly to suppress the warning
+
+
+2023-10-03 14:18:47,180:WARNING:c:\Users\bukuw\anaconda3\envs\workenv\lib\site-packages\sklearn\cluster\_kmeans.py:870: FutureWarning:
+
+The default value of `n_init` will change from 10 to 'auto' in 1.4. Set the value of `n_init` explicitly to suppress the warning
+
+
+2023-10-03 14:18:55,942:INFO:Visual Rendered Successfully
+2023-10-03 14:18:56,363:INFO:plot_model() successfully completed......................................
+2023-10-03 14:19:13,917:INFO:Initializing assign_model()
+2023-10-03 14:19:13,917:INFO:assign_model(self=<pycaret.clustering.oop.ClusteringExperiment object at 0x000001D761824160>, model=KMeans(n_clusters=4, random_state=123), transformation=True, score=True, verbose=True)
+2023-10-03 14:19:13,918:INFO:Checking exceptions
+2023-10-03 14:19:13,918:INFO:Determining Trained Model
+2023-10-03 14:19:13,918:INFO:Trained Model : K-Means Clustering
+2023-10-03 14:19:13,919:INFO:Copying data
+2023-10-03 14:19:14,522:INFO:Transformation parameter set to True. Assigned clusters are attached on transformed dataset.
+2023-10-03 14:19:14,722:INFO:(202485, 37)
+2023-10-03 14:19:14,722:INFO:assign_model() successfully completed......................................
+2023-10-03 14:21:07,993:INFO:Initializing assign_model()
+2023-10-03 14:21:07,993:INFO:assign_model(self=<pycaret.clustering.oop.ClusteringExperiment object at 0x000001D761824160>, model=KMeans(n_clusters=4, random_state=123), transformation=False, score=True, verbose=True)
+2023-10-03 14:21:07,993:INFO:Checking exceptions
+2023-10-03 14:21:07,993:INFO:Determining Trained Model
+2023-10-03 14:21:07,994:INFO:Trained Model : K-Means Clustering
+2023-10-03 14:21:07,994:INFO:Copying data
+2023-10-03 14:21:08,132:INFO:(202485, 14)
+2023-10-03 14:21:08,132:INFO:assign_model() successfully completed......................................
+2023-10-03 14:21:13,506:WARNING:C:\Users\bukuw\AppData\Local\Temp\ipykernel_19736\3963200647.py:1: FutureWarning:
+
+The default value of numeric_only in DataFrameGroupBy.mean is deprecated. In a future version, numeric_only will default to False. Either specify numeric_only or select only columns which should be valid for the function.
+
+
+2023-10-03 14:21:14,106:WARNING:C:\Users\bukuw\AppData\Local\Temp\ipykernel_19736\995719458.py:1: FutureWarning:
+
+The default value of numeric_only in DataFrameGroupBy.mean is deprecated. In a future version, numeric_only will default to False. Either specify numeric_only or select only columns which should be valid for the function.
+
+
+2023-10-03 14:21:14,412:WARNING:C:\Users\bukuw\AppData\Local\Temp\ipykernel_19736\759939738.py:1: FutureWarning:
+
+The default value of numeric_only in DataFrameGroupBy.mean is deprecated. In a future version, numeric_only will default to False. Either specify numeric_only or select only columns which should be valid for the function.
+
+
+2023-10-03 14:21:42,388:INFO:Initializing assign_model()
+2023-10-03 14:21:42,389:INFO:assign_model(self=<pycaret.clustering.oop.ClusteringExperiment object at 0x000001D761824160>, model=KMeans(n_clusters=4, random_state=123), transformation=False, score=True, verbose=True)
+2023-10-03 14:21:42,389:INFO:Checking exceptions
+2023-10-03 14:21:42,389:INFO:Determining Trained Model
+2023-10-03 14:21:42,390:INFO:Trained Model : K-Means Clustering
+2023-10-03 14:21:42,390:INFO:Copying data
+2023-10-03 14:21:42,604:INFO:(202485, 14)
+2023-10-03 14:21:42,604:INFO:assign_model() successfully completed......................................
+2023-10-03 14:21:44,180:INFO:Initializing assign_model()
+2023-10-03 14:21:44,180:INFO:assign_model(self=<pycaret.clustering.oop.ClusteringExperiment object at 0x000001D761824160>, model=KMeans(n_clusters=4, random_state=123), transformation=True, score=True, verbose=True)
+2023-10-03 14:21:44,180:INFO:Checking exceptions
+2023-10-03 14:21:44,180:INFO:Determining Trained Model
+2023-10-03 14:21:44,181:INFO:Trained Model : K-Means Clustering
+2023-10-03 14:21:44,181:INFO:Copying data
+2023-10-03 14:21:44,517:INFO:Transformation parameter set to True. Assigned clusters are attached on transformed dataset.
+2023-10-03 14:21:44,655:INFO:(202485, 37)
+2023-10-03 14:21:44,655:INFO:assign_model() successfully completed......................................
+2023-10-03 14:21:47,335:INFO:Initializing assign_model()
+2023-10-03 14:21:47,336:INFO:assign_model(self=<pycaret.clustering.oop.ClusteringExperiment object at 0x000001D761824160>, model=KMeans(n_clusters=4, random_state=123), transformation=True, score=True, verbose=True)
+2023-10-03 14:21:47,336:INFO:Checking exceptions
+2023-10-03 14:21:47,336:INFO:Determining Trained Model
+2023-10-03 14:21:47,336:INFO:Trained Model : K-Means Clustering
+2023-10-03 14:21:47,336:INFO:Copying data
+2023-10-03 14:21:47,668:INFO:Transformation parameter set to True. Assigned clusters are attached on transformed dataset.
+2023-10-03 14:21:47,805:INFO:(202485, 37)
+2023-10-03 14:21:47,805:INFO:assign_model() successfully completed......................................
+2023-10-03 14:21:50,395:WARNING:C:\Users\bukuw\AppData\Local\Temp\ipykernel_19736\3963200647.py:1: FutureWarning:
+
+The default value of numeric_only in DataFrameGroupBy.mean is deprecated. In a future version, numeric_only will default to False. Either specify numeric_only or select only columns which should be valid for the function.
+
+
+2023-10-03 14:21:50,557:WARNING:C:\Users\bukuw\AppData\Local\Temp\ipykernel_19736\995719458.py:1: FutureWarning:
+
+The default value of numeric_only in DataFrameGroupBy.mean is deprecated. In a future version, numeric_only will default to False. Either specify numeric_only or select only columns which should be valid for the function.
+
+
