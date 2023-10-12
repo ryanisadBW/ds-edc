@@ -55151,3 +55151,1288 @@ Alternately, you can install this by running `pip install pycaret[models]`
 2023-10-11 22:52:27,379:WARNING:C:\Users\bukuw\AppData\Local\Temp\ipykernel_21772\957192638.py:1: FutureWarning: The default value of numeric_only in DataFrameGroupBy.mean is deprecated. In a future version, numeric_only will default to False. Either specify numeric_only or select only columns which should be valid for the function.
   res.groupby([ 'date_', 'Cluster']).agg('mean')
 
+2023-10-12 11:05:39,274:INFO:PyCaret ClusteringExperiment
+2023-10-12 11:05:39,275:INFO:Logging name: cluster-default-name
+2023-10-12 11:05:39,275:INFO:ML Usecase: MLUsecase.CLUSTERING
+2023-10-12 11:05:39,275:INFO:version 3.0.1
+2023-10-12 11:05:39,275:INFO:Initializing setup()
+2023-10-12 11:05:39,275:INFO:self.USI: a54a
+2023-10-12 11:05:39,276:INFO:self._variable_keys: {'log_plots_param', 'data', 'memory', 'gpu_n_jobs_param', 'n_jobs_param', 'USI', 'X', 'html_param', 'idx', 'exp_id', '_ml_usecase', 'pipeline', 'gpu_param', '_available_plots', 'seed', 'logging_param', 'exp_name_log'}
+2023-10-12 11:05:39,276:INFO:Checking environment
+2023-10-12 11:05:39,276:INFO:python_version: 3.9.6
+2023-10-12 11:05:39,276:INFO:python_build: ('default', 'Aug 18 2021 15:44:49')
+2023-10-12 11:05:39,276:INFO:machine: AMD64
+2023-10-12 11:05:39,276:INFO:platform: Windows-10-10.0.22621-SP0
+2023-10-12 11:05:39,276:INFO:Memory: svmem(total=16889470976, available=1952985088, percent=88.4, used=14936485888, free=1952985088)
+2023-10-12 11:05:39,277:INFO:Physical Core: 4
+2023-10-12 11:05:39,277:INFO:Logical Core: 8
+2023-10-12 11:05:39,277:INFO:Checking libraries
+2023-10-12 11:05:39,277:INFO:System:
+2023-10-12 11:05:39,277:INFO:    python: 3.9.6 (default, Aug 18 2021, 15:44:49) [MSC v.1916 64 bit (AMD64)]
+2023-10-12 11:05:39,277:INFO:executable: c:\Users\bukuw\anaconda3\envs\workenv\python.exe
+2023-10-12 11:05:39,277:INFO:   machine: Windows-10-10.0.22621-SP0
+2023-10-12 11:05:39,277:INFO:PyCaret required dependencies:
+2023-10-12 11:05:39,277:INFO:                 pip: 23.1.2
+2023-10-12 11:05:39,278:INFO:          setuptools: 67.8.0
+2023-10-12 11:05:39,278:INFO:             pycaret: 3.0.1
+2023-10-12 11:05:39,278:INFO:             IPython: 8.14.0
+2023-10-12 11:05:39,278:INFO:          ipywidgets: 8.0.7
+2023-10-12 11:05:39,278:INFO:                tqdm: 4.65.0
+2023-10-12 11:05:39,278:INFO:               numpy: 1.23.5
+2023-10-12 11:05:39,278:INFO:              pandas: 1.5.3
+2023-10-12 11:05:39,278:INFO:              jinja2: 3.1.2
+2023-10-12 11:05:39,278:INFO:               scipy: 1.11.1
+2023-10-12 11:05:39,278:INFO:              joblib: 1.3.1
+2023-10-12 11:05:39,279:INFO:             sklearn: 1.2.2
+2023-10-12 11:05:39,279:INFO:                pyod: 1.1.0
+2023-10-12 11:05:39,279:INFO:            imblearn: 0.10.1
+2023-10-12 11:05:39,279:INFO:   category_encoders: 2.6.1
+2023-10-12 11:05:39,279:INFO:            lightgbm: 3.3.5
+2023-10-12 11:05:39,279:INFO:               numba: 0.57.1
+2023-10-12 11:05:39,279:INFO:            requests: 2.31.0
+2023-10-12 11:05:39,279:INFO:          matplotlib: 3.7.1
+2023-10-12 11:05:39,279:INFO:          scikitplot: 0.3.7
+2023-10-12 11:05:39,280:INFO:         yellowbrick: 1.5
+2023-10-12 11:05:39,280:INFO:              plotly: 5.15.0
+2023-10-12 11:05:39,280:INFO:             kaleido: 0.2.1
+2023-10-12 11:05:39,280:INFO:         statsmodels: 0.14.0
+2023-10-12 11:05:39,280:INFO:              sktime: 0.17.0
+2023-10-12 11:05:39,280:INFO:               tbats: 1.1.3
+2023-10-12 11:05:39,280:INFO:            pmdarima: 2.0.3
+2023-10-12 11:05:39,280:INFO:              psutil: 5.9.5
+2023-10-12 11:05:39,280:INFO:PyCaret optional dependencies:
+2023-10-12 11:05:39,280:INFO:                shap: 0.41.0
+2023-10-12 11:05:39,281:INFO:           interpret: 0.4.2
+2023-10-12 11:05:39,281:INFO:                umap: Not installed
+2023-10-12 11:05:39,281:INFO:    pandas_profiling: Not installed
+2023-10-12 11:05:39,281:INFO:  explainerdashboard: Not installed
+2023-10-12 11:05:39,281:INFO:             autoviz: Not installed
+2023-10-12 11:05:39,281:INFO:           fairlearn: Not installed
+2023-10-12 11:05:39,281:INFO:             xgboost: Not installed
+2023-10-12 11:05:39,281:INFO:            catboost: Not installed
+2023-10-12 11:05:39,281:INFO:              kmodes: Not installed
+2023-10-12 11:05:39,281:INFO:             mlxtend: Not installed
+2023-10-12 11:05:39,281:INFO:       statsforecast: Not installed
+2023-10-12 11:05:39,281:INFO:        tune_sklearn: Not installed
+2023-10-12 11:05:39,281:INFO:                 ray: Not installed
+2023-10-12 11:05:39,281:INFO:            hyperopt: Not installed
+2023-10-12 11:05:39,281:INFO:              optuna: Not installed
+2023-10-12 11:05:39,281:INFO:               skopt: Not installed
+2023-10-12 11:05:39,283:INFO:              mlflow: Not installed
+2023-10-12 11:05:39,283:INFO:              gradio: Not installed
+2023-10-12 11:05:39,283:INFO:             fastapi: Not installed
+2023-10-12 11:05:39,283:INFO:             uvicorn: Not installed
+2023-10-12 11:05:39,283:INFO:              m2cgen: Not installed
+2023-10-12 11:05:39,283:INFO:           evidently: Not installed
+2023-10-12 11:05:39,283:INFO:               fugue: Not installed
+2023-10-12 11:05:39,283:INFO:           streamlit: Not installed
+2023-10-12 11:05:39,283:INFO:             prophet: Not installed
+2023-10-12 11:05:39,283:INFO:None
+2023-10-12 11:05:39,283:INFO:Set up GPU usage.
+2023-10-12 11:05:39,284:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2023-10-12 11:05:39,284:WARNING:cuML is outdated or not found. Required version is >=22.10.
+                Please visit https://rapids.ai/ for installation instructions.
+2023-10-12 11:05:39,284:INFO:Set up data.
+2023-10-12 11:05:39,422:INFO:Set up index.
+2023-10-12 11:05:39,464:INFO:Assigning column types.
+2023-10-12 11:05:39,480:INFO:Engine successfully changes for model 'kmeans' to 'sklearn'.
+2023-10-12 11:05:39,481:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2023-10-12 11:05:39,481:INFO:Engine for model 'dbscan' has not been set explicitly, hence returning None.
+2023-10-12 11:05:39,482:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2023-10-12 11:05:39,482:WARNING:
+'kmodes' is a soft dependency and not included in the pycaret installation. Please run: `pip install kmodes` to install.
+Alternately, you can install this by running `pip install pycaret[models]`
+2023-10-12 11:05:39,482:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2023-10-12 11:05:39,482:INFO:Engine for model 'dbscan' has not been set explicitly, hence returning None.
+2023-10-12 11:05:39,482:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2023-10-12 11:05:39,482:WARNING:
+'kmodes' is a soft dependency and not included in the pycaret installation. Please run: `pip install kmodes` to install.
+Alternately, you can install this by running `pip install pycaret[models]`
+2023-10-12 11:05:39,483:INFO:Engine successfully changes for model 'dbscan' to 'sklearn'.
+2023-10-12 11:05:39,483:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2023-10-12 11:05:39,483:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2023-10-12 11:05:39,483:WARNING:
+'kmodes' is a soft dependency and not included in the pycaret installation. Please run: `pip install kmodes` to install.
+Alternately, you can install this by running `pip install pycaret[models]`
+2023-10-12 11:05:39,483:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2023-10-12 11:05:39,483:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2023-10-12 11:05:39,483:WARNING:
+'kmodes' is a soft dependency and not included in the pycaret installation. Please run: `pip install kmodes` to install.
+Alternately, you can install this by running `pip install pycaret[models]`
+2023-10-12 11:05:39,485:INFO:Preparing preprocessing pipeline...
+2023-10-12 11:05:39,485:INFO:Set up simple imputation.
+2023-10-12 11:05:39,512:INFO:Set up encoding of ordinal features.
+2023-10-12 11:05:39,517:INFO:Set up encoding of categorical features.
+2023-10-12 11:05:39,517:INFO:Set up removing multicollinearity.
+2023-10-12 11:05:48,690:INFO:Finished creating preprocessing pipeline.
+2023-10-12 11:05:48,735:INFO:Pipeline: Pipeline(memory=FastMemory(location=C:\Users\bukuw\AppData\Local\Temp\joblib),
+         steps=[('numerical_imputer',
+                 TransformerWrapper(include=['M1_core_count', 'M1_ppob_count',
+                                             'M1_acc_count',
+                                             'M1_campaign_saldo',
+                                             'total_customer', 'is_referrer',
+                                             'age_on_platform_days',
+                                             'is_send_m1', 'is_imp_m1',
+                                             'is_read_m1', 'is_act_m1',
+                                             'is_conv_m1'],
+                                    transformer=SimpleImputer())),
+                (...
+                 TransformerWrapper(include=['loyalty_tier',
+                                             'acquisition_channel',
+                                             'user_segment_sub_bucket'],
+                                    transformer=OneHotEncoder(cols=['loyalty_tier',
+                                                                    'acquisition_channel',
+                                                                    'user_segment_sub_bucket'],
+                                                              handle_missing='return_nan',
+                                                              use_cat_names=True))),
+                ('remove_multicollinearity',
+                 TransformerWrapper(exclude=[],
+                                    transformer=RemoveMulticollinearity(threshold=0.9)))])
+2023-10-12 11:05:48,736:INFO:Creating final display dataframe.
+2023-10-12 11:05:52,971:INFO:Setup _display_container:                     Description                 Value
+0                    Session id                   123
+1           Original data shape          (202898, 16)
+2        Transformed data shape          (202898, 32)
+3               Ignore features                     1
+4              Ordinal features                     1
+5              Numeric features                    12
+6          Categorical features                     4
+7      Rows with missing values                 56.7%
+8                    Preprocess                  True
+9               Imputation type                simple
+10           Numeric imputation                  mean
+11       Categorical imputation                  mode
+12     Maximum one-hot encoding                    -1
+13              Encoding method                  None
+14     Remove multicollinearity                  True
+15  Multicollinearity threshold                   0.9
+16                     CPU Jobs                    -1
+17                      Use GPU                  True
+18               Log Experiment                 False
+19              Experiment Name  cluster-default-name
+20                          USI                  a54a
+2023-10-12 11:05:52,986:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2023-10-12 11:05:52,987:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2023-10-12 11:05:52,988:WARNING:
+'kmodes' is a soft dependency and not included in the pycaret installation. Please run: `pip install kmodes` to install.
+Alternately, you can install this by running `pip install pycaret[models]`
+2023-10-12 11:05:52,988:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2023-10-12 11:05:52,989:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2023-10-12 11:05:52,989:WARNING:
+'kmodes' is a soft dependency and not included in the pycaret installation. Please run: `pip install kmodes` to install.
+Alternately, you can install this by running `pip install pycaret[models]`
+2023-10-12 11:05:52,990:INFO:setup() successfully completed in 14.61s...............
+2023-10-12 11:05:53,515:INFO:Initializing create_model()
+2023-10-12 11:05:53,515:INFO:create_model(self=<pycaret.clustering.oop.ClusteringExperiment object at 0x0000023E221834C0>, estimator=kmeans, num_clusters=4, fraction=0.05, ground_truth=None, round=4, fit_kwargs=None, experiment_custom_tags=None, verbose=True, system=True, add_to_model_list=True, raise_num_clusters=False, display=None, kwargs={})
+2023-10-12 11:05:53,515:INFO:Checking exceptions
+2023-10-12 11:05:54,091:INFO:Importing untrained model
+2023-10-12 11:05:54,101:INFO:K-Means Clustering Imported successfully
+2023-10-12 11:05:54,116:INFO:Fitting Model
+2023-10-12 11:05:59,445:WARNING:c:\Users\bukuw\anaconda3\envs\workenv\lib\site-packages\pycaret\internal\pipeline.py:238: UserWarning: Persisting input arguments took 0.70s to run.If this happens often in your code, it can cause performance problems (results will be correct in all cases). The reason for this is probably some large input arguments for a wrapped function.
+  X, y = self._memory_transform(
+
+2023-10-12 11:05:59,999:WARNING:c:\Users\bukuw\anaconda3\envs\workenv\lib\site-packages\sklearn\cluster\_kmeans.py:870: FutureWarning: The default value of `n_init` will change from 10 to 'auto' in 1.4. Set the value of `n_init` explicitly to suppress the warning
+  warnings.warn(
+
+2023-10-12 11:17:29,842:INFO:KMeans(n_clusters=4, random_state=123)
+2023-10-12 11:17:29,846:INFO:create_models() successfully completed......................................
+2023-10-12 11:17:29,879:INFO:Uploading results into container
+2023-10-12 11:17:29,896:INFO:Uploading model into container now
+2023-10-12 11:17:29,926:INFO:_master_model_container: 1
+2023-10-12 11:17:29,927:INFO:_display_container: 2
+2023-10-12 11:17:29,929:INFO:KMeans(n_clusters=4, random_state=123)
+2023-10-12 11:17:29,930:INFO:create_model() successfully completed......................................
+2023-10-12 11:17:31,150:INFO:Initializing plot_model()
+2023-10-12 11:17:31,150:INFO:plot_model(plot=elbow, fold=None, use_train_data=False, verbose=True, display=None, display_format=None, estimator=KMeans(n_clusters=4, random_state=123), feature_name=None, fit_kwargs=None, groups=None, label=False, plot_kwargs=None, save=False, scale=1, self=<pycaret.clustering.oop.ClusteringExperiment object at 0x0000023E221834C0>, system=True)
+2023-10-12 11:17:31,150:INFO:Checking exceptions
+2023-10-12 11:17:31,157:INFO:Preloading libraries
+2023-10-12 11:17:31,164:INFO:Copying training dataset
+2023-10-12 11:17:31,164:INFO:Plot type: elbow
+2023-10-12 11:17:31,649:INFO:Fitting Model
+2023-10-12 11:17:31,746:WARNING:c:\Users\bukuw\anaconda3\envs\workenv\lib\site-packages\sklearn\cluster\_kmeans.py:870: FutureWarning: The default value of `n_init` will change from 10 to 'auto' in 1.4. Set the value of `n_init` explicitly to suppress the warning
+  warnings.warn(
+
+2023-10-12 11:17:33,238:WARNING:c:\Users\bukuw\anaconda3\envs\workenv\lib\site-packages\sklearn\cluster\_kmeans.py:870: FutureWarning: The default value of `n_init` will change from 10 to 'auto' in 1.4. Set the value of `n_init` explicitly to suppress the warning
+  warnings.warn(
+
+2023-10-12 11:17:35,456:WARNING:c:\Users\bukuw\anaconda3\envs\workenv\lib\site-packages\sklearn\cluster\_kmeans.py:870: FutureWarning: The default value of `n_init` will change from 10 to 'auto' in 1.4. Set the value of `n_init` explicitly to suppress the warning
+  warnings.warn(
+
+2023-10-12 11:17:37,901:WARNING:c:\Users\bukuw\anaconda3\envs\workenv\lib\site-packages\sklearn\cluster\_kmeans.py:870: FutureWarning: The default value of `n_init` will change from 10 to 'auto' in 1.4. Set the value of `n_init` explicitly to suppress the warning
+  warnings.warn(
+
+2023-10-12 11:17:41,461:WARNING:c:\Users\bukuw\anaconda3\envs\workenv\lib\site-packages\sklearn\cluster\_kmeans.py:870: FutureWarning: The default value of `n_init` will change from 10 to 'auto' in 1.4. Set the value of `n_init` explicitly to suppress the warning
+  warnings.warn(
+
+2023-10-12 11:17:46,317:WARNING:c:\Users\bukuw\anaconda3\envs\workenv\lib\site-packages\sklearn\cluster\_kmeans.py:870: FutureWarning: The default value of `n_init` will change from 10 to 'auto' in 1.4. Set the value of `n_init` explicitly to suppress the warning
+  warnings.warn(
+
+2023-10-12 11:17:51,925:WARNING:c:\Users\bukuw\anaconda3\envs\workenv\lib\site-packages\sklearn\cluster\_kmeans.py:870: FutureWarning: The default value of `n_init` will change from 10 to 'auto' in 1.4. Set the value of `n_init` explicitly to suppress the warning
+  warnings.warn(
+
+2023-10-12 11:17:56,556:WARNING:c:\Users\bukuw\anaconda3\envs\workenv\lib\site-packages\sklearn\cluster\_kmeans.py:870: FutureWarning: The default value of `n_init` will change from 10 to 'auto' in 1.4. Set the value of `n_init` explicitly to suppress the warning
+  warnings.warn(
+
+2023-10-12 11:18:01,573:WARNING:c:\Users\bukuw\anaconda3\envs\workenv\lib\site-packages\sklearn\cluster\_kmeans.py:870: FutureWarning: The default value of `n_init` will change from 10 to 'auto' in 1.4. Set the value of `n_init` explicitly to suppress the warning
+  warnings.warn(
+
+2023-10-12 11:18:05,934:INFO:Visual Rendered Successfully
+2023-10-12 11:18:06,075:INFO:plot_model() successfully completed......................................
+2023-10-12 11:18:06,994:INFO:Initializing assign_model()
+2023-10-12 11:18:06,994:INFO:assign_model(self=<pycaret.clustering.oop.ClusteringExperiment object at 0x0000023E221834C0>, model=KMeans(n_clusters=4, random_state=123), transformation=False, score=True, verbose=True)
+2023-10-12 11:18:06,995:INFO:Checking exceptions
+2023-10-12 11:18:06,995:INFO:Determining Trained Model
+2023-10-12 11:18:06,995:INFO:Trained Model : K-Means Clustering
+2023-10-12 11:18:06,995:INFO:Copying data
+2023-10-12 11:18:07,127:INFO:(202898, 17)
+2023-10-12 11:18:07,127:INFO:assign_model() successfully completed......................................
+2023-10-12 11:18:08,757:WARNING:C:\Users\bukuw\AppData\Local\Temp\ipykernel_21772\957192638.py:1: FutureWarning: The default value of numeric_only in DataFrameGroupBy.mean is deprecated. In a future version, numeric_only will default to False. Either specify numeric_only or select only columns which should be valid for the function.
+  res.groupby([ 'date_', 'Cluster']).agg('mean')
+
+2023-10-12 11:38:50,810:INFO:PyCaret ClusteringExperiment
+2023-10-12 11:38:50,810:INFO:Logging name: cluster-default-name
+2023-10-12 11:38:50,811:INFO:ML Usecase: MLUsecase.CLUSTERING
+2023-10-12 11:38:50,811:INFO:version 3.0.1
+2023-10-12 11:38:50,811:INFO:Initializing setup()
+2023-10-12 11:38:50,811:INFO:self.USI: 34b2
+2023-10-12 11:38:50,811:INFO:self._variable_keys: {'log_plots_param', 'data', 'memory', 'gpu_n_jobs_param', 'n_jobs_param', 'USI', 'X', 'html_param', 'idx', 'exp_id', '_ml_usecase', 'pipeline', 'gpu_param', '_available_plots', 'seed', 'logging_param', 'exp_name_log'}
+2023-10-12 11:38:50,811:INFO:Checking environment
+2023-10-12 11:38:50,811:INFO:python_version: 3.9.6
+2023-10-12 11:38:50,811:INFO:python_build: ('default', 'Aug 18 2021 15:44:49')
+2023-10-12 11:38:50,811:INFO:machine: AMD64
+2023-10-12 11:38:50,811:INFO:platform: Windows-10-10.0.22621-SP0
+2023-10-12 11:38:50,811:INFO:Memory: svmem(total=16889470976, available=4439310336, percent=73.7, used=12450160640, free=4439310336)
+2023-10-12 11:38:50,811:INFO:Physical Core: 4
+2023-10-12 11:38:50,811:INFO:Logical Core: 8
+2023-10-12 11:38:50,811:INFO:Checking libraries
+2023-10-12 11:38:50,811:INFO:System:
+2023-10-12 11:38:50,811:INFO:    python: 3.9.6 (default, Aug 18 2021, 15:44:49) [MSC v.1916 64 bit (AMD64)]
+2023-10-12 11:38:50,811:INFO:executable: c:\Users\bukuw\anaconda3\envs\workenv\python.exe
+2023-10-12 11:38:50,811:INFO:   machine: Windows-10-10.0.22621-SP0
+2023-10-12 11:38:50,811:INFO:PyCaret required dependencies:
+2023-10-12 11:38:50,812:INFO:                 pip: 23.1.2
+2023-10-12 11:38:50,812:INFO:          setuptools: 67.8.0
+2023-10-12 11:38:50,812:INFO:             pycaret: 3.0.1
+2023-10-12 11:38:50,812:INFO:             IPython: 8.14.0
+2023-10-12 11:38:50,812:INFO:          ipywidgets: 8.0.7
+2023-10-12 11:38:50,812:INFO:                tqdm: 4.65.0
+2023-10-12 11:38:50,812:INFO:               numpy: 1.23.5
+2023-10-12 11:38:50,812:INFO:              pandas: 1.5.3
+2023-10-12 11:38:50,812:INFO:              jinja2: 3.1.2
+2023-10-12 11:38:50,812:INFO:               scipy: 1.11.1
+2023-10-12 11:38:50,812:INFO:              joblib: 1.3.1
+2023-10-12 11:38:50,812:INFO:             sklearn: 1.2.2
+2023-10-12 11:38:50,812:INFO:                pyod: 1.1.0
+2023-10-12 11:38:50,812:INFO:            imblearn: 0.10.1
+2023-10-12 11:38:50,812:INFO:   category_encoders: 2.6.1
+2023-10-12 11:38:50,812:INFO:            lightgbm: 3.3.5
+2023-10-12 11:38:50,812:INFO:               numba: 0.57.1
+2023-10-12 11:38:50,812:INFO:            requests: 2.31.0
+2023-10-12 11:38:50,812:INFO:          matplotlib: 3.7.1
+2023-10-12 11:38:50,812:INFO:          scikitplot: 0.3.7
+2023-10-12 11:38:50,812:INFO:         yellowbrick: 1.5
+2023-10-12 11:38:50,812:INFO:              plotly: 5.15.0
+2023-10-12 11:38:50,812:INFO:             kaleido: 0.2.1
+2023-10-12 11:38:50,812:INFO:         statsmodels: 0.14.0
+2023-10-12 11:38:50,812:INFO:              sktime: 0.17.0
+2023-10-12 11:38:50,812:INFO:               tbats: 1.1.3
+2023-10-12 11:38:50,812:INFO:            pmdarima: 2.0.3
+2023-10-12 11:38:50,812:INFO:              psutil: 5.9.5
+2023-10-12 11:38:50,812:INFO:PyCaret optional dependencies:
+2023-10-12 11:38:50,812:INFO:                shap: 0.41.0
+2023-10-12 11:38:50,812:INFO:           interpret: 0.4.2
+2023-10-12 11:38:50,812:INFO:                umap: Not installed
+2023-10-12 11:38:50,812:INFO:    pandas_profiling: Not installed
+2023-10-12 11:38:50,812:INFO:  explainerdashboard: Not installed
+2023-10-12 11:38:50,812:INFO:             autoviz: Not installed
+2023-10-12 11:38:50,812:INFO:           fairlearn: Not installed
+2023-10-12 11:38:50,812:INFO:             xgboost: Not installed
+2023-10-12 11:38:50,812:INFO:            catboost: Not installed
+2023-10-12 11:38:50,812:INFO:              kmodes: Not installed
+2023-10-12 11:38:50,812:INFO:             mlxtend: Not installed
+2023-10-12 11:38:50,812:INFO:       statsforecast: Not installed
+2023-10-12 11:38:50,812:INFO:        tune_sklearn: Not installed
+2023-10-12 11:38:50,812:INFO:                 ray: Not installed
+2023-10-12 11:38:50,812:INFO:            hyperopt: Not installed
+2023-10-12 11:38:50,812:INFO:              optuna: Not installed
+2023-10-12 11:38:50,812:INFO:               skopt: Not installed
+2023-10-12 11:38:50,812:INFO:              mlflow: Not installed
+2023-10-12 11:38:50,812:INFO:              gradio: Not installed
+2023-10-12 11:38:50,812:INFO:             fastapi: Not installed
+2023-10-12 11:38:50,812:INFO:             uvicorn: Not installed
+2023-10-12 11:38:50,812:INFO:              m2cgen: Not installed
+2023-10-12 11:38:50,812:INFO:           evidently: Not installed
+2023-10-12 11:38:50,812:INFO:               fugue: Not installed
+2023-10-12 11:38:50,812:INFO:           streamlit: Not installed
+2023-10-12 11:38:50,812:INFO:             prophet: Not installed
+2023-10-12 11:38:50,812:INFO:None
+2023-10-12 11:38:50,812:INFO:Set up GPU usage.
+2023-10-12 11:38:50,812:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2023-10-12 11:38:50,812:WARNING:cuML is outdated or not found. Required version is >=22.10.
+                Please visit https://rapids.ai/ for installation instructions.
+2023-10-12 11:38:50,812:INFO:Set up data.
+2023-10-12 11:38:50,879:INFO:Set up index.
+2023-10-12 11:38:50,895:INFO:Assigning column types.
+2023-10-12 11:38:50,902:INFO:Engine successfully changes for model 'kmeans' to 'sklearn'.
+2023-10-12 11:38:50,902:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2023-10-12 11:38:50,902:INFO:Engine for model 'dbscan' has not been set explicitly, hence returning None.
+2023-10-12 11:38:50,902:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2023-10-12 11:38:50,902:WARNING:
+'kmodes' is a soft dependency and not included in the pycaret installation. Please run: `pip install kmodes` to install.
+Alternately, you can install this by running `pip install pycaret[models]`
+2023-10-12 11:38:50,902:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2023-10-12 11:38:50,902:INFO:Engine for model 'dbscan' has not been set explicitly, hence returning None.
+2023-10-12 11:38:50,902:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2023-10-12 11:38:50,902:WARNING:
+'kmodes' is a soft dependency and not included in the pycaret installation. Please run: `pip install kmodes` to install.
+Alternately, you can install this by running `pip install pycaret[models]`
+2023-10-12 11:38:50,902:INFO:Engine successfully changes for model 'dbscan' to 'sklearn'.
+2023-10-12 11:38:50,902:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2023-10-12 11:38:50,902:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2023-10-12 11:38:50,902:WARNING:
+'kmodes' is a soft dependency and not included in the pycaret installation. Please run: `pip install kmodes` to install.
+Alternately, you can install this by running `pip install pycaret[models]`
+2023-10-12 11:38:50,902:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2023-10-12 11:38:50,902:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2023-10-12 11:38:50,902:WARNING:
+'kmodes' is a soft dependency and not included in the pycaret installation. Please run: `pip install kmodes` to install.
+Alternately, you can install this by running `pip install pycaret[models]`
+2023-10-12 11:38:50,902:INFO:Preparing preprocessing pipeline...
+2023-10-12 11:38:50,902:INFO:Set up simple imputation.
+2023-10-12 11:38:50,912:INFO:Set up encoding of ordinal features.
+2023-10-12 11:38:50,922:INFO:Set up encoding of categorical features.
+2023-10-12 11:38:50,922:INFO:Set up removing multicollinearity.
+2023-10-12 11:38:50,922:INFO:Set up feature normalization.
+2023-10-12 11:38:52,472:INFO:Finished creating preprocessing pipeline.
+2023-10-12 11:38:52,483:INFO:Pipeline: Pipeline(memory=FastMemory(location=C:\Users\bukuw\AppData\Local\Temp\joblib),
+         steps=[('numerical_imputer',
+                 TransformerWrapper(include=['M1_core_count', 'M1_ppob_count',
+                                             'M1_acc_count',
+                                             'M1_campaign_saldo',
+                                             'total_customer', 'is_referrer',
+                                             'age_on_platform_days',
+                                             'is_send_m1', 'is_imp_m1',
+                                             'is_read_m1', 'is_act_m1',
+                                             'is_conv_m1'],
+                                    transformer=SimpleImputer())),
+                (...
+                                             'acquisition_channel',
+                                             'user_segment_sub_bucket'],
+                                    transformer=OneHotEncoder(cols=['loyalty_tier',
+                                                                    'acquisition_channel',
+                                                                    'user_segment_sub_bucket'],
+                                                              handle_missing='return_nan',
+                                                              use_cat_names=True))),
+                ('remove_multicollinearity',
+                 TransformerWrapper(exclude=[],
+                                    transformer=RemoveMulticollinearity(threshold=0.9))),
+                ('normalize',
+                 TransformerWrapper(transformer=StandardScaler()))])
+2023-10-12 11:38:52,483:INFO:Creating final display dataframe.
+2023-10-12 11:38:53,692:INFO:Setup _display_container:                     Description                 Value
+0                    Session id                   123
+1           Original data shape          (202898, 16)
+2        Transformed data shape          (202898, 32)
+3               Ignore features                     1
+4              Ordinal features                     1
+5              Numeric features                    12
+6          Categorical features                     4
+7      Rows with missing values                 56.7%
+8                    Preprocess                  True
+9               Imputation type                simple
+10           Numeric imputation                  mean
+11       Categorical imputation                  mode
+12     Maximum one-hot encoding                    -1
+13              Encoding method                  None
+14     Remove multicollinearity                  True
+15  Multicollinearity threshold                   0.9
+16                    Normalize                  True
+17             Normalize method                zscore
+18                     CPU Jobs                    -1
+19                      Use GPU                  True
+20               Log Experiment                 False
+21              Experiment Name  cluster-default-name
+22                          USI                  34b2
+2023-10-12 11:38:53,702:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2023-10-12 11:38:53,702:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2023-10-12 11:38:53,702:WARNING:
+'kmodes' is a soft dependency and not included in the pycaret installation. Please run: `pip install kmodes` to install.
+Alternately, you can install this by running `pip install pycaret[models]`
+2023-10-12 11:38:53,702:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2023-10-12 11:38:53,702:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2023-10-12 11:38:53,702:WARNING:
+'kmodes' is a soft dependency and not included in the pycaret installation. Please run: `pip install kmodes` to install.
+Alternately, you can install this by running `pip install pycaret[models]`
+2023-10-12 11:38:53,702:INFO:setup() successfully completed in 3.06s...............
+2023-10-12 11:38:53,872:INFO:Initializing create_model()
+2023-10-12 11:38:53,872:INFO:create_model(self=<pycaret.clustering.oop.ClusteringExperiment object at 0x0000023E216CFFA0>, estimator=kmeans, num_clusters=4, fraction=0.05, ground_truth=None, round=4, fit_kwargs=None, experiment_custom_tags=None, verbose=True, system=True, add_to_model_list=True, raise_num_clusters=False, display=None, kwargs={})
+2023-10-12 11:38:53,872:INFO:Checking exceptions
+2023-10-12 11:38:54,122:INFO:Importing untrained model
+2023-10-12 11:38:54,126:INFO:K-Means Clustering Imported successfully
+2023-10-12 11:38:54,131:INFO:Fitting Model
+2023-10-12 11:38:55,837:WARNING:c:\Users\bukuw\anaconda3\envs\workenv\lib\site-packages\sklearn\cluster\_kmeans.py:870: FutureWarning: The default value of `n_init` will change from 10 to 'auto' in 1.4. Set the value of `n_init` explicitly to suppress the warning
+  warnings.warn(
+
+2023-10-12 11:46:32,482:INFO:KMeans(n_clusters=4, random_state=123)
+2023-10-12 11:46:32,482:INFO:create_models() successfully completed......................................
+2023-10-12 11:46:32,487:INFO:Uploading results into container
+2023-10-12 11:46:32,491:INFO:Uploading model into container now
+2023-10-12 11:46:32,500:INFO:_master_model_container: 1
+2023-10-12 11:46:32,500:INFO:_display_container: 2
+2023-10-12 11:46:32,501:INFO:KMeans(n_clusters=4, random_state=123)
+2023-10-12 11:46:32,501:INFO:create_model() successfully completed......................................
+2023-10-12 11:46:33,118:INFO:Initializing plot_model()
+2023-10-12 11:46:33,118:INFO:plot_model(plot=elbow, fold=None, use_train_data=False, verbose=True, display=None, display_format=None, estimator=KMeans(n_clusters=4, random_state=123), feature_name=None, fit_kwargs=None, groups=None, label=False, plot_kwargs=None, save=False, scale=1, self=<pycaret.clustering.oop.ClusteringExperiment object at 0x0000023E216CFFA0>, system=True)
+2023-10-12 11:46:33,118:INFO:Checking exceptions
+2023-10-12 11:46:33,122:INFO:Preloading libraries
+2023-10-12 11:46:33,122:INFO:Copying training dataset
+2023-10-12 11:46:33,122:INFO:Plot type: elbow
+2023-10-12 11:46:33,343:INFO:Fitting Model
+2023-10-12 11:46:33,406:WARNING:c:\Users\bukuw\anaconda3\envs\workenv\lib\site-packages\sklearn\cluster\_kmeans.py:870: FutureWarning: The default value of `n_init` will change from 10 to 'auto' in 1.4. Set the value of `n_init` explicitly to suppress the warning
+  warnings.warn(
+
+2023-10-12 11:46:34,213:WARNING:c:\Users\bukuw\anaconda3\envs\workenv\lib\site-packages\sklearn\cluster\_kmeans.py:870: FutureWarning: The default value of `n_init` will change from 10 to 'auto' in 1.4. Set the value of `n_init` explicitly to suppress the warning
+  warnings.warn(
+
+2023-10-12 11:46:35,697:WARNING:c:\Users\bukuw\anaconda3\envs\workenv\lib\site-packages\sklearn\cluster\_kmeans.py:870: FutureWarning: The default value of `n_init` will change from 10 to 'auto' in 1.4. Set the value of `n_init` explicitly to suppress the warning
+  warnings.warn(
+
+2023-10-12 11:46:37,183:WARNING:c:\Users\bukuw\anaconda3\envs\workenv\lib\site-packages\sklearn\cluster\_kmeans.py:870: FutureWarning: The default value of `n_init` will change from 10 to 'auto' in 1.4. Set the value of `n_init` explicitly to suppress the warning
+  warnings.warn(
+
+2023-10-12 11:46:39,186:WARNING:c:\Users\bukuw\anaconda3\envs\workenv\lib\site-packages\sklearn\cluster\_kmeans.py:870: FutureWarning: The default value of `n_init` will change from 10 to 'auto' in 1.4. Set the value of `n_init` explicitly to suppress the warning
+  warnings.warn(
+
+2023-10-12 11:46:42,244:WARNING:c:\Users\bukuw\anaconda3\envs\workenv\lib\site-packages\sklearn\cluster\_kmeans.py:870: FutureWarning: The default value of `n_init` will change from 10 to 'auto' in 1.4. Set the value of `n_init` explicitly to suppress the warning
+  warnings.warn(
+
+2023-10-12 11:46:45,384:WARNING:c:\Users\bukuw\anaconda3\envs\workenv\lib\site-packages\sklearn\cluster\_kmeans.py:870: FutureWarning: The default value of `n_init` will change from 10 to 'auto' in 1.4. Set the value of `n_init` explicitly to suppress the warning
+  warnings.warn(
+
+2023-10-12 11:46:48,573:WARNING:c:\Users\bukuw\anaconda3\envs\workenv\lib\site-packages\sklearn\cluster\_kmeans.py:870: FutureWarning: The default value of `n_init` will change from 10 to 'auto' in 1.4. Set the value of `n_init` explicitly to suppress the warning
+  warnings.warn(
+
+2023-10-12 11:46:51,843:WARNING:c:\Users\bukuw\anaconda3\envs\workenv\lib\site-packages\sklearn\cluster\_kmeans.py:870: FutureWarning: The default value of `n_init` will change from 10 to 'auto' in 1.4. Set the value of `n_init` explicitly to suppress the warning
+  warnings.warn(
+
+2023-10-12 11:46:55,834:INFO:Visual Rendered Successfully
+2023-10-12 11:46:55,962:INFO:plot_model() successfully completed......................................
+2023-10-12 11:46:57,176:INFO:Initializing assign_model()
+2023-10-12 11:46:57,177:INFO:assign_model(self=<pycaret.clustering.oop.ClusteringExperiment object at 0x0000023E216CFFA0>, model=KMeans(n_clusters=4, random_state=123), transformation=False, score=True, verbose=True)
+2023-10-12 11:46:57,177:INFO:Checking exceptions
+2023-10-12 11:46:57,177:INFO:Determining Trained Model
+2023-10-12 11:46:57,177:INFO:Trained Model : K-Means Clustering
+2023-10-12 11:46:57,177:INFO:Copying data
+2023-10-12 11:46:57,251:INFO:(202898, 17)
+2023-10-12 11:46:57,251:INFO:assign_model() successfully completed......................................
+2023-10-12 11:46:58,783:WARNING:C:\Users\bukuw\AppData\Local\Temp\ipykernel_21772\957192638.py:1: FutureWarning: The default value of numeric_only in DataFrameGroupBy.mean is deprecated. In a future version, numeric_only will default to False. Either specify numeric_only or select only columns which should be valid for the function.
+  res.groupby([ 'date_', 'Cluster']).agg('mean')
+
+2023-10-12 12:16:24,369:WARNING:C:\Users\bukuw\AppData\Local\Temp\ipykernel_21772\3306072454.py:1: FutureWarning: The default value of numeric_only in DataFrameGroupBy.mean is deprecated. In a future version, numeric_only will default to False. Either specify numeric_only or select only columns which should be valid for the function.
+  res.groupby(['Cluster']).agg('mean')
+
+2023-10-12 12:16:36,639:WARNING:C:\Users\bukuw\AppData\Local\Temp\ipykernel_21772\957192638.py:1: FutureWarning: The default value of numeric_only in DataFrameGroupBy.mean is deprecated. In a future version, numeric_only will default to False. Either specify numeric_only or select only columns which should be valid for the function.
+  res.groupby([ 'date_', 'Cluster']).agg('mean')
+
+2023-10-12 12:21:40,043:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2023-10-12 12:21:40,043:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2023-10-12 12:21:40,044:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2023-10-12 12:21:40,044:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2023-10-12 12:21:40,081:WARNING:
+'prophet' is a soft dependency and not included in the pycaret installation. Please run: `pip install prophet` to install.
+2023-10-12 12:21:44,847:INFO:PyCaret ClusteringExperiment
+2023-10-12 12:21:44,847:INFO:Logging name: cluster-default-name
+2023-10-12 12:21:44,847:INFO:ML Usecase: MLUsecase.CLUSTERING
+2023-10-12 12:21:44,847:INFO:version 3.0.1
+2023-10-12 12:21:44,847:INFO:Initializing setup()
+2023-10-12 12:21:44,848:INFO:self.USI: 0a68
+2023-10-12 12:21:44,848:INFO:self._variable_keys: {'gpu_param', 'gpu_n_jobs_param', 'exp_name_log', 'pipeline', 'html_param', 'log_plots_param', 'X', '_available_plots', 'n_jobs_param', 'exp_id', 'memory', 'USI', 'logging_param', 'idx', '_ml_usecase', 'seed', 'data'}
+2023-10-12 12:21:44,848:INFO:Checking environment
+2023-10-12 12:21:44,848:INFO:python_version: 3.9.6
+2023-10-12 12:21:44,848:INFO:python_build: ('default', 'Aug 18 2021 15:44:49')
+2023-10-12 12:21:44,848:INFO:machine: AMD64
+2023-10-12 12:21:44,848:INFO:platform: Windows-10-10.0.22621-SP0
+2023-10-12 12:21:44,848:INFO:Memory: svmem(total=16889470976, available=3790209024, percent=77.6, used=13099261952, free=3790209024)
+2023-10-12 12:21:44,849:INFO:Physical Core: 4
+2023-10-12 12:21:44,849:INFO:Logical Core: 8
+2023-10-12 12:21:44,849:INFO:Checking libraries
+2023-10-12 12:21:44,849:INFO:System:
+2023-10-12 12:21:44,849:INFO:    python: 3.9.6 (default, Aug 18 2021, 15:44:49) [MSC v.1916 64 bit (AMD64)]
+2023-10-12 12:21:44,849:INFO:executable: c:\Users\bukuw\anaconda3\envs\workenv\python.exe
+2023-10-12 12:21:44,850:INFO:   machine: Windows-10-10.0.22621-SP0
+2023-10-12 12:21:44,850:INFO:PyCaret required dependencies:
+2023-10-12 12:21:44,850:INFO:                 pip: 23.1.2
+2023-10-12 12:21:44,850:INFO:          setuptools: 67.8.0
+2023-10-12 12:21:44,850:INFO:             pycaret: 3.0.1
+2023-10-12 12:21:44,850:INFO:             IPython: 8.14.0
+2023-10-12 12:21:44,850:INFO:          ipywidgets: 8.0.7
+2023-10-12 12:21:44,850:INFO:                tqdm: 4.65.0
+2023-10-12 12:21:44,850:INFO:               numpy: 1.23.5
+2023-10-12 12:21:44,850:INFO:              pandas: 1.5.3
+2023-10-12 12:21:44,850:INFO:              jinja2: 3.1.2
+2023-10-12 12:21:44,850:INFO:               scipy: 1.11.1
+2023-10-12 12:21:44,850:INFO:              joblib: 1.3.1
+2023-10-12 12:21:44,850:INFO:             sklearn: 1.2.2
+2023-10-12 12:21:44,852:INFO:                pyod: 1.1.0
+2023-10-12 12:21:44,852:INFO:            imblearn: 0.10.1
+2023-10-12 12:21:44,852:INFO:   category_encoders: 2.6.1
+2023-10-12 12:21:44,852:INFO:            lightgbm: 3.3.5
+2023-10-12 12:21:44,852:INFO:               numba: 0.57.1
+2023-10-12 12:21:44,852:INFO:            requests: 2.31.0
+2023-10-12 12:21:44,853:INFO:          matplotlib: 3.7.1
+2023-10-12 12:21:44,853:INFO:          scikitplot: 0.3.7
+2023-10-12 12:21:44,853:INFO:         yellowbrick: 1.5
+2023-10-12 12:21:44,853:INFO:              plotly: 5.15.0
+2023-10-12 12:21:44,853:INFO:             kaleido: 0.2.1
+2023-10-12 12:21:44,853:INFO:         statsmodels: 0.14.0
+2023-10-12 12:21:44,853:INFO:              sktime: 0.17.0
+2023-10-12 12:21:44,854:INFO:               tbats: 1.1.3
+2023-10-12 12:21:44,854:INFO:            pmdarima: 2.0.3
+2023-10-12 12:21:44,854:INFO:              psutil: 5.9.5
+2023-10-12 12:21:44,854:INFO:PyCaret optional dependencies:
+2023-10-12 12:21:44,871:INFO:                shap: 0.41.0
+2023-10-12 12:21:44,872:INFO:           interpret: 0.4.2
+2023-10-12 12:21:44,872:INFO:                umap: Not installed
+2023-10-12 12:21:44,872:INFO:    pandas_profiling: Not installed
+2023-10-12 12:21:44,872:INFO:  explainerdashboard: Not installed
+2023-10-12 12:21:44,872:INFO:             autoviz: Not installed
+2023-10-12 12:21:44,872:INFO:           fairlearn: Not installed
+2023-10-12 12:21:44,872:INFO:             xgboost: Not installed
+2023-10-12 12:21:44,873:INFO:            catboost: Not installed
+2023-10-12 12:21:44,873:INFO:              kmodes: Not installed
+2023-10-12 12:21:44,873:INFO:             mlxtend: Not installed
+2023-10-12 12:21:44,873:INFO:       statsforecast: Not installed
+2023-10-12 12:21:44,873:INFO:        tune_sklearn: Not installed
+2023-10-12 12:21:44,873:INFO:                 ray: Not installed
+2023-10-12 12:21:44,873:INFO:            hyperopt: Not installed
+2023-10-12 12:21:44,873:INFO:              optuna: Not installed
+2023-10-12 12:21:44,873:INFO:               skopt: Not installed
+2023-10-12 12:21:44,873:INFO:              mlflow: Not installed
+2023-10-12 12:21:44,873:INFO:              gradio: Not installed
+2023-10-12 12:21:44,874:INFO:             fastapi: Not installed
+2023-10-12 12:21:44,874:INFO:             uvicorn: Not installed
+2023-10-12 12:21:44,874:INFO:              m2cgen: Not installed
+2023-10-12 12:21:44,874:INFO:           evidently: Not installed
+2023-10-12 12:21:44,874:INFO:               fugue: Not installed
+2023-10-12 12:21:44,874:INFO:           streamlit: Not installed
+2023-10-12 12:21:44,874:INFO:             prophet: Not installed
+2023-10-12 12:21:44,874:INFO:None
+2023-10-12 12:21:44,874:INFO:Set up GPU usage.
+2023-10-12 12:21:44,875:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2023-10-12 12:21:44,875:WARNING:cuML is outdated or not found. Required version is >=22.10.
+                Please visit https://rapids.ai/ for installation instructions.
+2023-10-12 12:21:44,875:INFO:Set up data.
+2023-10-12 12:21:44,982:INFO:Set up index.
+2023-10-12 12:21:45,021:INFO:Assigning column types.
+2023-10-12 12:21:45,034:INFO:Engine successfully changes for model 'kmeans' to 'sklearn'.
+2023-10-12 12:21:45,034:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2023-10-12 12:21:45,036:INFO:Engine for model 'dbscan' has not been set explicitly, hence returning None.
+2023-10-12 12:21:45,036:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2023-10-12 12:21:45,036:WARNING:
+'kmodes' is a soft dependency and not included in the pycaret installation. Please run: `pip install kmodes` to install.
+Alternately, you can install this by running `pip install pycaret[models]`
+2023-10-12 12:21:45,036:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2023-10-12 12:21:45,037:INFO:Engine for model 'dbscan' has not been set explicitly, hence returning None.
+2023-10-12 12:21:45,037:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2023-10-12 12:21:45,037:WARNING:
+'kmodes' is a soft dependency and not included in the pycaret installation. Please run: `pip install kmodes` to install.
+Alternately, you can install this by running `pip install pycaret[models]`
+2023-10-12 12:21:45,037:INFO:Engine successfully changes for model 'dbscan' to 'sklearn'.
+2023-10-12 12:21:45,037:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2023-10-12 12:21:45,038:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2023-10-12 12:21:45,038:WARNING:
+'kmodes' is a soft dependency and not included in the pycaret installation. Please run: `pip install kmodes` to install.
+Alternately, you can install this by running `pip install pycaret[models]`
+2023-10-12 12:21:45,038:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2023-10-12 12:21:45,038:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2023-10-12 12:21:45,038:WARNING:
+'kmodes' is a soft dependency and not included in the pycaret installation. Please run: `pip install kmodes` to install.
+Alternately, you can install this by running `pip install pycaret[models]`
+2023-10-12 12:21:45,040:INFO:Preparing preprocessing pipeline...
+2023-10-12 12:21:45,040:INFO:Set up simple imputation.
+2023-10-12 12:21:45,066:INFO:Set up encoding of ordinal features.
+2023-10-12 12:21:45,073:INFO:Set up encoding of categorical features.
+2023-10-12 12:21:45,073:INFO:Set up feature normalization.
+2023-10-12 12:21:51,709:INFO:Finished creating preprocessing pipeline.
+2023-10-12 12:21:51,740:INFO:Pipeline: Pipeline(memory=FastMemory(location=C:\Users\bukuw\AppData\Local\Temp\joblib),
+         steps=[('numerical_imputer',
+                 TransformerWrapper(include=['M1_core_count', 'M1_ppob_count',
+                                             'M1_acc_count',
+                                             'M1_campaign_saldo',
+                                             'total_customer', 'is_referrer',
+                                             'age_on_platform_days'],
+                                    transformer=SimpleImputer())),
+                ('categorical_imputer',
+                 TransformerWrapper(include=['kyc_tier', 'l...
+SUPREME     1
+NaN        -1
+dtype: int64}]))),
+                ('onehot_encoding',
+                 TransformerWrapper(include=['loyalty_tier',
+                                             'acquisition_channel',
+                                             'user_segment_sub_bucket'],
+                                    transformer=OneHotEncoder(cols=['loyalty_tier',
+                                                                    'acquisition_channel',
+                                                                    'user_segment_sub_bucket'],
+                                                              handle_missing='return_nan',
+                                                              use_cat_names=True))),
+                ('normalize',
+                 TransformerWrapper(transformer=StandardScaler()))])
+2023-10-12 12:21:51,740:INFO:Creating final display dataframe.
+2023-10-12 12:21:55,034:INFO:Setup _display_container:                  Description                 Value
+0                 Session id                   123
+1        Original data shape          (202898, 11)
+2     Transformed data shape          (202898, 28)
+3            Ignore features                     1
+4           Ordinal features                     1
+5           Numeric features                     7
+6       Categorical features                     4
+7   Rows with missing values                 56.7%
+8                 Preprocess                  True
+9            Imputation type                simple
+10        Numeric imputation                  mean
+11    Categorical imputation                  mode
+12  Maximum one-hot encoding                    -1
+13           Encoding method                  None
+14                 Normalize                  True
+15          Normalize method                zscore
+16                  CPU Jobs                    -1
+17                   Use GPU                  True
+18            Log Experiment                 False
+19           Experiment Name  cluster-default-name
+20                       USI                  0a68
+2023-10-12 12:21:55,045:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2023-10-12 12:21:55,045:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2023-10-12 12:21:55,046:WARNING:
+'kmodes' is a soft dependency and not included in the pycaret installation. Please run: `pip install kmodes` to install.
+Alternately, you can install this by running `pip install pycaret[models]`
+2023-10-12 12:21:55,046:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2023-10-12 12:21:55,046:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2023-10-12 12:21:55,046:WARNING:
+'kmodes' is a soft dependency and not included in the pycaret installation. Please run: `pip install kmodes` to install.
+Alternately, you can install this by running `pip install pycaret[models]`
+2023-10-12 12:21:55,047:INFO:setup() successfully completed in 10.81s...............
+2023-10-12 12:21:55,070:INFO:Initializing create_model()
+2023-10-12 12:21:55,070:INFO:create_model(self=<pycaret.clustering.oop.ClusteringExperiment object at 0x000001D5B3F73400>, estimator=kmeans, num_clusters=4, fraction=0.05, ground_truth=None, round=4, fit_kwargs=None, experiment_custom_tags=None, verbose=True, system=True, add_to_model_list=True, raise_num_clusters=False, display=None, kwargs={})
+2023-10-12 12:21:55,071:INFO:Checking exceptions
+2023-10-12 12:21:55,447:INFO:Importing untrained model
+2023-10-12 12:21:55,453:INFO:K-Means Clustering Imported successfully
+2023-10-12 12:21:55,464:INFO:Fitting Model
+2023-10-12 12:21:58,612:WARNING:c:\Users\bukuw\anaconda3\envs\workenv\lib\site-packages\sklearn\cluster\_kmeans.py:870: FutureWarning: The default value of `n_init` will change from 10 to 'auto' in 1.4. Set the value of `n_init` explicitly to suppress the warning
+  warnings.warn(
+
+2023-10-12 12:31:54,808:INFO:KMeans(n_clusters=4, random_state=123)
+2023-10-12 12:31:54,808:INFO:create_models() successfully completed......................................
+2023-10-12 12:31:54,812:INFO:Uploading results into container
+2023-10-12 12:31:54,818:INFO:Uploading model into container now
+2023-10-12 12:31:54,825:INFO:_master_model_container: 1
+2023-10-12 12:31:54,826:INFO:_display_container: 2
+2023-10-12 12:31:54,826:INFO:KMeans(n_clusters=4, random_state=123)
+2023-10-12 12:31:54,826:INFO:create_model() successfully completed......................................
+2023-10-12 12:31:55,359:INFO:Initializing plot_model()
+2023-10-12 12:31:55,360:INFO:plot_model(plot=elbow, fold=None, use_train_data=False, verbose=True, display=None, display_format=None, estimator=KMeans(n_clusters=4, random_state=123), feature_name=None, fit_kwargs=None, groups=None, label=False, plot_kwargs=None, save=False, scale=1, self=<pycaret.clustering.oop.ClusteringExperiment object at 0x000001D5B3F73400>, system=True)
+2023-10-12 12:31:55,360:INFO:Checking exceptions
+2023-10-12 12:31:55,362:INFO:Preloading libraries
+2023-10-12 12:31:55,362:INFO:Copying training dataset
+2023-10-12 12:31:55,363:INFO:Plot type: elbow
+2023-10-12 12:31:55,600:INFO:Fitting Model
+2023-10-12 12:31:55,656:WARNING:c:\Users\bukuw\anaconda3\envs\workenv\lib\site-packages\sklearn\cluster\_kmeans.py:870: FutureWarning: The default value of `n_init` will change from 10 to 'auto' in 1.4. Set the value of `n_init` explicitly to suppress the warning
+  warnings.warn(
+
+2023-10-12 12:31:56,463:WARNING:c:\Users\bukuw\anaconda3\envs\workenv\lib\site-packages\sklearn\cluster\_kmeans.py:870: FutureWarning: The default value of `n_init` will change from 10 to 'auto' in 1.4. Set the value of `n_init` explicitly to suppress the warning
+  warnings.warn(
+
+2023-10-12 12:31:57,925:WARNING:c:\Users\bukuw\anaconda3\envs\workenv\lib\site-packages\sklearn\cluster\_kmeans.py:870: FutureWarning: The default value of `n_init` will change from 10 to 'auto' in 1.4. Set the value of `n_init` explicitly to suppress the warning
+  warnings.warn(
+
+2023-10-12 12:31:59,541:WARNING:c:\Users\bukuw\anaconda3\envs\workenv\lib\site-packages\sklearn\cluster\_kmeans.py:870: FutureWarning: The default value of `n_init` will change from 10 to 'auto' in 1.4. Set the value of `n_init` explicitly to suppress the warning
+  warnings.warn(
+
+2023-10-12 12:32:02,377:WARNING:c:\Users\bukuw\anaconda3\envs\workenv\lib\site-packages\sklearn\cluster\_kmeans.py:870: FutureWarning: The default value of `n_init` will change from 10 to 'auto' in 1.4. Set the value of `n_init` explicitly to suppress the warning
+  warnings.warn(
+
+2023-10-12 12:32:04,641:WARNING:c:\Users\bukuw\anaconda3\envs\workenv\lib\site-packages\sklearn\cluster\_kmeans.py:870: FutureWarning: The default value of `n_init` will change from 10 to 'auto' in 1.4. Set the value of `n_init` explicitly to suppress the warning
+  warnings.warn(
+
+2023-10-12 12:32:06,884:WARNING:c:\Users\bukuw\anaconda3\envs\workenv\lib\site-packages\sklearn\cluster\_kmeans.py:870: FutureWarning: The default value of `n_init` will change from 10 to 'auto' in 1.4. Set the value of `n_init` explicitly to suppress the warning
+  warnings.warn(
+
+2023-10-12 12:32:09,373:WARNING:c:\Users\bukuw\anaconda3\envs\workenv\lib\site-packages\sklearn\cluster\_kmeans.py:870: FutureWarning: The default value of `n_init` will change from 10 to 'auto' in 1.4. Set the value of `n_init` explicitly to suppress the warning
+  warnings.warn(
+
+2023-10-12 12:32:12,238:WARNING:c:\Users\bukuw\anaconda3\envs\workenv\lib\site-packages\sklearn\cluster\_kmeans.py:870: FutureWarning: The default value of `n_init` will change from 10 to 'auto' in 1.4. Set the value of `n_init` explicitly to suppress the warning
+  warnings.warn(
+
+2023-10-12 12:32:16,434:INFO:Visual Rendered Successfully
+2023-10-12 12:32:16,536:INFO:plot_model() successfully completed......................................
+2023-10-12 12:32:17,632:INFO:Initializing assign_model()
+2023-10-12 12:32:17,633:INFO:assign_model(self=<pycaret.clustering.oop.ClusteringExperiment object at 0x000001D5B3F73400>, model=KMeans(n_clusters=4, random_state=123), transformation=False, score=True, verbose=True)
+2023-10-12 12:32:17,633:INFO:Checking exceptions
+2023-10-12 12:32:17,633:INFO:Determining Trained Model
+2023-10-12 12:32:17,634:INFO:Trained Model : K-Means Clustering
+2023-10-12 12:32:17,634:INFO:Copying data
+2023-10-12 12:32:17,757:INFO:(202898, 12)
+2023-10-12 12:32:17,757:INFO:assign_model() successfully completed......................................
+2023-10-12 12:32:19,042:WARNING:C:\Users\bukuw\AppData\Local\Temp\ipykernel_12636\957192638.py:1: FutureWarning: The default value of numeric_only in DataFrameGroupBy.mean is deprecated. In a future version, numeric_only will default to False. Either specify numeric_only or select only columns which should be valid for the function.
+  res.groupby([ 'date_', 'Cluster']).agg('mean')
+
+2023-10-12 13:42:01,466:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2023-10-12 13:42:01,466:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2023-10-12 13:42:01,466:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2023-10-12 13:42:01,466:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2023-10-12 13:42:01,487:WARNING:
+'prophet' is a soft dependency and not included in the pycaret installation. Please run: `pip install prophet` to install.
+2023-10-12 13:42:04,275:INFO:PyCaret ClusteringExperiment
+2023-10-12 13:42:04,275:INFO:Logging name: cluster-default-name
+2023-10-12 13:42:04,275:INFO:ML Usecase: MLUsecase.CLUSTERING
+2023-10-12 13:42:04,276:INFO:version 3.0.1
+2023-10-12 13:42:04,276:INFO:Initializing setup()
+2023-10-12 13:42:04,276:INFO:self.USI: da2f
+2023-10-12 13:42:04,276:INFO:self._variable_keys: {'seed', 'idx', 'exp_name_log', 'exp_id', 'log_plots_param', 'USI', '_ml_usecase', 'logging_param', '_available_plots', 'gpu_n_jobs_param', 'gpu_param', 'memory', 'n_jobs_param', 'html_param', 'pipeline', 'X', 'data'}
+2023-10-12 13:42:04,276:INFO:Checking environment
+2023-10-12 13:42:04,276:INFO:python_version: 3.9.6
+2023-10-12 13:42:04,276:INFO:python_build: ('default', 'Aug 18 2021 15:44:49')
+2023-10-12 13:42:04,276:INFO:machine: AMD64
+2023-10-12 13:42:04,276:INFO:platform: Windows-10-10.0.22621-SP0
+2023-10-12 13:42:04,276:INFO:Memory: svmem(total=16889470976, available=2771263488, percent=83.6, used=14118207488, free=2771263488)
+2023-10-12 13:42:04,276:INFO:Physical Core: 4
+2023-10-12 13:42:04,276:INFO:Logical Core: 8
+2023-10-12 13:42:04,276:INFO:Checking libraries
+2023-10-12 13:42:04,276:INFO:System:
+2023-10-12 13:42:04,276:INFO:    python: 3.9.6 (default, Aug 18 2021, 15:44:49) [MSC v.1916 64 bit (AMD64)]
+2023-10-12 13:42:04,276:INFO:executable: c:\Users\bukuw\anaconda3\envs\workenv\python.exe
+2023-10-12 13:42:04,276:INFO:   machine: Windows-10-10.0.22621-SP0
+2023-10-12 13:42:04,276:INFO:PyCaret required dependencies:
+2023-10-12 13:42:04,277:INFO:                 pip: 23.1.2
+2023-10-12 13:42:04,277:INFO:          setuptools: 67.8.0
+2023-10-12 13:42:04,277:INFO:             pycaret: 3.0.1
+2023-10-12 13:42:04,277:INFO:             IPython: 8.14.0
+2023-10-12 13:42:04,277:INFO:          ipywidgets: 8.0.7
+2023-10-12 13:42:04,277:INFO:                tqdm: 4.65.0
+2023-10-12 13:42:04,277:INFO:               numpy: 1.23.5
+2023-10-12 13:42:04,277:INFO:              pandas: 1.5.3
+2023-10-12 13:42:04,277:INFO:              jinja2: 3.1.2
+2023-10-12 13:42:04,277:INFO:               scipy: 1.11.1
+2023-10-12 13:42:04,277:INFO:              joblib: 1.3.1
+2023-10-12 13:42:04,277:INFO:             sklearn: 1.2.2
+2023-10-12 13:42:04,277:INFO:                pyod: 1.1.0
+2023-10-12 13:42:04,277:INFO:            imblearn: 0.10.1
+2023-10-12 13:42:04,277:INFO:   category_encoders: 2.6.1
+2023-10-12 13:42:04,277:INFO:            lightgbm: 3.3.5
+2023-10-12 13:42:04,277:INFO:               numba: 0.57.1
+2023-10-12 13:42:04,277:INFO:            requests: 2.31.0
+2023-10-12 13:42:04,277:INFO:          matplotlib: 3.7.1
+2023-10-12 13:42:04,277:INFO:          scikitplot: 0.3.7
+2023-10-12 13:42:04,277:INFO:         yellowbrick: 1.5
+2023-10-12 13:42:04,278:INFO:              plotly: 5.15.0
+2023-10-12 13:42:04,278:INFO:             kaleido: 0.2.1
+2023-10-12 13:42:04,278:INFO:         statsmodels: 0.14.0
+2023-10-12 13:42:04,278:INFO:              sktime: 0.17.0
+2023-10-12 13:42:04,278:INFO:               tbats: 1.1.3
+2023-10-12 13:42:04,278:INFO:            pmdarima: 2.0.3
+2023-10-12 13:42:04,278:INFO:              psutil: 5.9.5
+2023-10-12 13:42:04,278:INFO:PyCaret optional dependencies:
+2023-10-12 13:42:04,284:INFO:                shap: 0.41.0
+2023-10-12 13:42:04,284:INFO:           interpret: 0.4.2
+2023-10-12 13:42:04,284:INFO:                umap: Not installed
+2023-10-12 13:42:04,284:INFO:    pandas_profiling: Not installed
+2023-10-12 13:42:04,284:INFO:  explainerdashboard: Not installed
+2023-10-12 13:42:04,284:INFO:             autoviz: Not installed
+2023-10-12 13:42:04,284:INFO:           fairlearn: Not installed
+2023-10-12 13:42:04,284:INFO:             xgboost: Not installed
+2023-10-12 13:42:04,284:INFO:            catboost: Not installed
+2023-10-12 13:42:04,284:INFO:              kmodes: Not installed
+2023-10-12 13:42:04,284:INFO:             mlxtend: Not installed
+2023-10-12 13:42:04,284:INFO:       statsforecast: Not installed
+2023-10-12 13:42:04,284:INFO:        tune_sklearn: Not installed
+2023-10-12 13:42:04,284:INFO:                 ray: Not installed
+2023-10-12 13:42:04,284:INFO:            hyperopt: Not installed
+2023-10-12 13:42:04,284:INFO:              optuna: Not installed
+2023-10-12 13:42:04,284:INFO:               skopt: Not installed
+2023-10-12 13:42:04,284:INFO:              mlflow: Not installed
+2023-10-12 13:42:04,284:INFO:              gradio: Not installed
+2023-10-12 13:42:04,284:INFO:             fastapi: Not installed
+2023-10-12 13:42:04,286:INFO:             uvicorn: Not installed
+2023-10-12 13:42:04,286:INFO:              m2cgen: Not installed
+2023-10-12 13:42:04,286:INFO:           evidently: Not installed
+2023-10-12 13:42:04,286:INFO:               fugue: Not installed
+2023-10-12 13:42:04,286:INFO:           streamlit: Not installed
+2023-10-12 13:42:04,286:INFO:             prophet: Not installed
+2023-10-12 13:42:04,286:INFO:None
+2023-10-12 13:42:04,286:INFO:Set up GPU usage.
+2023-10-12 13:42:04,286:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2023-10-12 13:42:04,286:WARNING:cuML is outdated or not found. Required version is >=22.10.
+                Please visit https://rapids.ai/ for installation instructions.
+2023-10-12 13:42:04,286:INFO:Set up data.
+2023-10-12 13:42:04,350:INFO:Set up index.
+2023-10-12 13:42:04,370:INFO:Assigning column types.
+2023-10-12 13:42:04,374:INFO:Engine successfully changes for model 'kmeans' to 'sklearn'.
+2023-10-12 13:42:04,374:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2023-10-12 13:42:04,376:INFO:Engine for model 'dbscan' has not been set explicitly, hence returning None.
+2023-10-12 13:42:04,376:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2023-10-12 13:42:04,376:WARNING:
+'kmodes' is a soft dependency and not included in the pycaret installation. Please run: `pip install kmodes` to install.
+Alternately, you can install this by running `pip install pycaret[models]`
+2023-10-12 13:42:04,376:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2023-10-12 13:42:04,376:INFO:Engine for model 'dbscan' has not been set explicitly, hence returning None.
+2023-10-12 13:42:04,376:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2023-10-12 13:42:04,376:WARNING:
+'kmodes' is a soft dependency and not included in the pycaret installation. Please run: `pip install kmodes` to install.
+Alternately, you can install this by running `pip install pycaret[models]`
+2023-10-12 13:42:04,376:INFO:Engine successfully changes for model 'dbscan' to 'sklearn'.
+2023-10-12 13:42:04,376:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2023-10-12 13:42:04,376:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2023-10-12 13:42:04,376:WARNING:
+'kmodes' is a soft dependency and not included in the pycaret installation. Please run: `pip install kmodes` to install.
+Alternately, you can install this by running `pip install pycaret[models]`
+2023-10-12 13:42:04,376:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2023-10-12 13:42:04,377:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2023-10-12 13:42:04,377:WARNING:
+'kmodes' is a soft dependency and not included in the pycaret installation. Please run: `pip install kmodes` to install.
+Alternately, you can install this by running `pip install pycaret[models]`
+2023-10-12 13:42:04,379:INFO:Preparing preprocessing pipeline...
+2023-10-12 13:42:04,379:INFO:Set up simple imputation.
+2023-10-12 13:42:04,390:INFO:Set up encoding of ordinal features.
+2023-10-12 13:42:04,392:INFO:Set up encoding of categorical features.
+2023-10-12 13:42:04,392:INFO:Set up feature normalization.
+2023-10-12 13:42:07,714:INFO:Finished creating preprocessing pipeline.
+2023-10-12 13:42:07,732:INFO:Pipeline: Pipeline(memory=FastMemory(location=C:\Users\bukuw\AppData\Local\Temp\joblib),
+         steps=[('numerical_imputer',
+                 TransformerWrapper(include=['M1_core_count', 'M1_ppob_count',
+                                             'M1_acc_count', 'total_customer',
+                                             'is_referrer',
+                                             'age_on_platform_days'],
+                                    transformer=SimpleImputer())),
+                ('categorical_imputer',
+                 TransformerWrapper(include=['kyc_tier', 'loyalty_tier',
+                                             'acquis...
+SUPREME     1
+NaN        -1
+dtype: int64}]))),
+                ('onehot_encoding',
+                 TransformerWrapper(include=['loyalty_tier',
+                                             'acquisition_channel',
+                                             'user_segment_sub_bucket'],
+                                    transformer=OneHotEncoder(cols=['loyalty_tier',
+                                                                    'acquisition_channel',
+                                                                    'user_segment_sub_bucket'],
+                                                              handle_missing='return_nan',
+                                                              use_cat_names=True))),
+                ('normalize',
+                 TransformerWrapper(transformer=StandardScaler()))])
+2023-10-12 13:42:07,732:INFO:Creating final display dataframe.
+2023-10-12 13:42:09,419:INFO:Setup _display_container:                  Description                 Value
+0                 Session id                   123
+1        Original data shape          (202898, 10)
+2     Transformed data shape          (202898, 27)
+3            Ignore features                     1
+4           Ordinal features                     1
+5           Numeric features                     6
+6       Categorical features                     4
+7   Rows with missing values                 56.7%
+8                 Preprocess                  True
+9            Imputation type                simple
+10        Numeric imputation                  mean
+11    Categorical imputation                  mode
+12  Maximum one-hot encoding                    -1
+13           Encoding method                  None
+14                 Normalize                  True
+15          Normalize method                zscore
+16                  CPU Jobs                    -1
+17                   Use GPU                  True
+18            Log Experiment                 False
+19           Experiment Name  cluster-default-name
+20                       USI                  da2f
+2023-10-12 13:42:09,425:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2023-10-12 13:42:09,426:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2023-10-12 13:42:09,426:WARNING:
+'kmodes' is a soft dependency and not included in the pycaret installation. Please run: `pip install kmodes` to install.
+Alternately, you can install this by running `pip install pycaret[models]`
+2023-10-12 13:42:09,426:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2023-10-12 13:42:09,426:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2023-10-12 13:42:09,426:WARNING:
+'kmodes' is a soft dependency and not included in the pycaret installation. Please run: `pip install kmodes` to install.
+Alternately, you can install this by running `pip install pycaret[models]`
+2023-10-12 13:42:09,427:INFO:setup() successfully completed in 5.43s...............
+2023-10-12 13:42:09,442:INFO:Initializing create_model()
+2023-10-12 13:42:09,442:INFO:create_model(self=<pycaret.clustering.oop.ClusteringExperiment object at 0x000001775EAE4430>, estimator=kmeans, num_clusters=4, fraction=0.05, ground_truth=None, round=4, fit_kwargs=None, experiment_custom_tags=None, verbose=True, system=True, add_to_model_list=True, raise_num_clusters=False, display=None, kwargs={})
+2023-10-12 13:42:09,443:INFO:Checking exceptions
+2023-10-12 13:42:09,630:INFO:Importing untrained model
+2023-10-12 13:42:09,632:INFO:K-Means Clustering Imported successfully
+2023-10-12 13:42:09,637:INFO:Fitting Model
+2023-10-12 13:42:11,295:WARNING:c:\Users\bukuw\anaconda3\envs\workenv\lib\site-packages\sklearn\cluster\_kmeans.py:870: FutureWarning: The default value of `n_init` will change from 10 to 'auto' in 1.4. Set the value of `n_init` explicitly to suppress the warning
+  warnings.warn(
+
+2023-10-12 13:51:19,485:INFO:KMeans(n_clusters=4, random_state=123)
+2023-10-12 13:51:19,485:INFO:create_models() successfully completed......................................
+2023-10-12 13:51:19,493:INFO:Uploading results into container
+2023-10-12 13:51:19,499:INFO:Uploading model into container now
+2023-10-12 13:51:19,509:INFO:_master_model_container: 1
+2023-10-12 13:51:19,509:INFO:_display_container: 2
+2023-10-12 13:51:19,511:INFO:KMeans(n_clusters=4, random_state=123)
+2023-10-12 13:51:19,511:INFO:create_model() successfully completed......................................
+2023-10-12 13:51:20,174:INFO:Initializing plot_model()
+2023-10-12 13:51:20,175:INFO:plot_model(plot=elbow, fold=None, use_train_data=False, verbose=True, display=None, display_format=None, estimator=KMeans(n_clusters=4, random_state=123), feature_name=None, fit_kwargs=None, groups=None, label=False, plot_kwargs=None, save=False, scale=1, self=<pycaret.clustering.oop.ClusteringExperiment object at 0x000001775EAE4430>, system=True)
+2023-10-12 13:51:20,175:INFO:Checking exceptions
+2023-10-12 13:51:20,180:INFO:Preloading libraries
+2023-10-12 13:51:20,181:INFO:Copying training dataset
+2023-10-12 13:51:20,181:INFO:Plot type: elbow
+2023-10-12 13:51:20,480:INFO:Fitting Model
+2023-10-12 13:51:20,544:WARNING:c:\Users\bukuw\anaconda3\envs\workenv\lib\site-packages\sklearn\cluster\_kmeans.py:870: FutureWarning: The default value of `n_init` will change from 10 to 'auto' in 1.4. Set the value of `n_init` explicitly to suppress the warning
+  warnings.warn(
+
+2023-10-12 13:51:21,307:WARNING:c:\Users\bukuw\anaconda3\envs\workenv\lib\site-packages\sklearn\cluster\_kmeans.py:870: FutureWarning: The default value of `n_init` will change from 10 to 'auto' in 1.4. Set the value of `n_init` explicitly to suppress the warning
+  warnings.warn(
+
+2023-10-12 13:51:22,893:WARNING:c:\Users\bukuw\anaconda3\envs\workenv\lib\site-packages\sklearn\cluster\_kmeans.py:870: FutureWarning: The default value of `n_init` will change from 10 to 'auto' in 1.4. Set the value of `n_init` explicitly to suppress the warning
+  warnings.warn(
+
+2023-10-12 13:51:24,838:WARNING:c:\Users\bukuw\anaconda3\envs\workenv\lib\site-packages\sklearn\cluster\_kmeans.py:870: FutureWarning: The default value of `n_init` will change from 10 to 'auto' in 1.4. Set the value of `n_init` explicitly to suppress the warning
+  warnings.warn(
+
+2023-10-12 13:51:26,638:WARNING:c:\Users\bukuw\anaconda3\envs\workenv\lib\site-packages\sklearn\cluster\_kmeans.py:870: FutureWarning: The default value of `n_init` will change from 10 to 'auto' in 1.4. Set the value of `n_init` explicitly to suppress the warning
+  warnings.warn(
+
+2023-10-12 13:51:28,594:WARNING:c:\Users\bukuw\anaconda3\envs\workenv\lib\site-packages\sklearn\cluster\_kmeans.py:870: FutureWarning: The default value of `n_init` will change from 10 to 'auto' in 1.4. Set the value of `n_init` explicitly to suppress the warning
+  warnings.warn(
+
+2023-10-12 13:51:30,801:WARNING:c:\Users\bukuw\anaconda3\envs\workenv\lib\site-packages\sklearn\cluster\_kmeans.py:870: FutureWarning: The default value of `n_init` will change from 10 to 'auto' in 1.4. Set the value of `n_init` explicitly to suppress the warning
+  warnings.warn(
+
+2023-10-12 13:51:33,143:WARNING:c:\Users\bukuw\anaconda3\envs\workenv\lib\site-packages\sklearn\cluster\_kmeans.py:870: FutureWarning: The default value of `n_init` will change from 10 to 'auto' in 1.4. Set the value of `n_init` explicitly to suppress the warning
+  warnings.warn(
+
+2023-10-12 13:51:35,710:WARNING:c:\Users\bukuw\anaconda3\envs\workenv\lib\site-packages\sklearn\cluster\_kmeans.py:870: FutureWarning: The default value of `n_init` will change from 10 to 'auto' in 1.4. Set the value of `n_init` explicitly to suppress the warning
+  warnings.warn(
+
+2023-10-12 13:51:38,771:INFO:Visual Rendered Successfully
+2023-10-12 13:51:38,864:INFO:plot_model() successfully completed......................................
+2023-10-12 13:51:39,752:INFO:Initializing assign_model()
+2023-10-12 13:51:39,752:INFO:assign_model(self=<pycaret.clustering.oop.ClusteringExperiment object at 0x000001775EAE4430>, model=KMeans(n_clusters=4, random_state=123), transformation=False, score=True, verbose=True)
+2023-10-12 13:51:39,752:INFO:Checking exceptions
+2023-10-12 13:51:39,752:INFO:Determining Trained Model
+2023-10-12 13:51:39,753:INFO:Trained Model : K-Means Clustering
+2023-10-12 13:51:39,753:INFO:Copying data
+2023-10-12 13:51:39,846:INFO:(202898, 11)
+2023-10-12 13:51:39,846:INFO:assign_model() successfully completed......................................
+2023-10-12 13:51:40,968:WARNING:C:\Users\bukuw\AppData\Local\Temp\ipykernel_12956\957192638.py:1: FutureWarning: The default value of numeric_only in DataFrameGroupBy.mean is deprecated. In a future version, numeric_only will default to False. Either specify numeric_only or select only columns which should be valid for the function.
+  res.groupby([ 'date_', 'Cluster']).agg('mean')
+
+2023-10-12 13:56:28,240:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2023-10-12 13:56:28,240:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2023-10-12 13:56:28,242:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2023-10-12 13:56:28,242:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2023-10-12 13:56:28,261:WARNING:
+'prophet' is a soft dependency and not included in the pycaret installation. Please run: `pip install prophet` to install.
+2023-10-12 13:56:31,690:INFO:PyCaret ClusteringExperiment
+2023-10-12 13:56:31,690:INFO:Logging name: cluster-default-name
+2023-10-12 13:56:31,690:INFO:ML Usecase: MLUsecase.CLUSTERING
+2023-10-12 13:56:31,690:INFO:version 3.0.1
+2023-10-12 13:56:31,690:INFO:Initializing setup()
+2023-10-12 13:56:31,690:INFO:self.USI: 2dc6
+2023-10-12 13:56:31,690:INFO:self._variable_keys: {'X', 'memory', 'n_jobs_param', 'logging_param', 'idx', 'html_param', 'data', 'seed', 'gpu_n_jobs_param', 'gpu_param', 'USI', 'pipeline', 'exp_name_log', '_available_plots', 'log_plots_param', 'exp_id', '_ml_usecase'}
+2023-10-12 13:56:31,690:INFO:Checking environment
+2023-10-12 13:56:31,690:INFO:python_version: 3.9.6
+2023-10-12 13:56:31,690:INFO:python_build: ('default', 'Aug 18 2021 15:44:49')
+2023-10-12 13:56:31,690:INFO:machine: AMD64
+2023-10-12 13:56:31,690:INFO:platform: Windows-10-10.0.22621-SP0
+2023-10-12 13:56:31,690:INFO:Memory: svmem(total=16889470976, available=4877070336, percent=71.1, used=12012400640, free=4877070336)
+2023-10-12 13:56:31,690:INFO:Physical Core: 4
+2023-10-12 13:56:31,690:INFO:Logical Core: 8
+2023-10-12 13:56:31,690:INFO:Checking libraries
+2023-10-12 13:56:31,690:INFO:System:
+2023-10-12 13:56:31,690:INFO:    python: 3.9.6 (default, Aug 18 2021, 15:44:49) [MSC v.1916 64 bit (AMD64)]
+2023-10-12 13:56:31,690:INFO:executable: c:\Users\bukuw\anaconda3\envs\workenv\python.exe
+2023-10-12 13:56:31,690:INFO:   machine: Windows-10-10.0.22621-SP0
+2023-10-12 13:56:31,690:INFO:PyCaret required dependencies:
+2023-10-12 13:56:31,690:INFO:                 pip: 23.1.2
+2023-10-12 13:56:31,690:INFO:          setuptools: 67.8.0
+2023-10-12 13:56:31,690:INFO:             pycaret: 3.0.1
+2023-10-12 13:56:31,690:INFO:             IPython: 8.14.0
+2023-10-12 13:56:31,690:INFO:          ipywidgets: 8.0.7
+2023-10-12 13:56:31,690:INFO:                tqdm: 4.65.0
+2023-10-12 13:56:31,690:INFO:               numpy: 1.23.5
+2023-10-12 13:56:31,690:INFO:              pandas: 1.5.3
+2023-10-12 13:56:31,690:INFO:              jinja2: 3.1.2
+2023-10-12 13:56:31,690:INFO:               scipy: 1.11.1
+2023-10-12 13:56:31,690:INFO:              joblib: 1.3.1
+2023-10-12 13:56:31,690:INFO:             sklearn: 1.2.2
+2023-10-12 13:56:31,690:INFO:                pyod: 1.1.0
+2023-10-12 13:56:31,690:INFO:            imblearn: 0.10.1
+2023-10-12 13:56:31,690:INFO:   category_encoders: 2.6.1
+2023-10-12 13:56:31,690:INFO:            lightgbm: 3.3.5
+2023-10-12 13:56:31,690:INFO:               numba: 0.57.1
+2023-10-12 13:56:31,690:INFO:            requests: 2.31.0
+2023-10-12 13:56:31,690:INFO:          matplotlib: 3.7.1
+2023-10-12 13:56:31,690:INFO:          scikitplot: 0.3.7
+2023-10-12 13:56:31,690:INFO:         yellowbrick: 1.5
+2023-10-12 13:56:31,690:INFO:              plotly: 5.15.0
+2023-10-12 13:56:31,690:INFO:             kaleido: 0.2.1
+2023-10-12 13:56:31,690:INFO:         statsmodels: 0.14.0
+2023-10-12 13:56:31,690:INFO:              sktime: 0.17.0
+2023-10-12 13:56:31,690:INFO:               tbats: 1.1.3
+2023-10-12 13:56:31,690:INFO:            pmdarima: 2.0.3
+2023-10-12 13:56:31,690:INFO:              psutil: 5.9.5
+2023-10-12 13:56:31,690:INFO:PyCaret optional dependencies:
+2023-10-12 13:56:31,710:INFO:                shap: 0.41.0
+2023-10-12 13:56:31,710:INFO:           interpret: 0.4.2
+2023-10-12 13:56:31,710:INFO:                umap: Not installed
+2023-10-12 13:56:31,710:INFO:    pandas_profiling: Not installed
+2023-10-12 13:56:31,710:INFO:  explainerdashboard: Not installed
+2023-10-12 13:56:31,710:INFO:             autoviz: Not installed
+2023-10-12 13:56:31,710:INFO:           fairlearn: Not installed
+2023-10-12 13:56:31,710:INFO:             xgboost: Not installed
+2023-10-12 13:56:31,710:INFO:            catboost: Not installed
+2023-10-12 13:56:31,710:INFO:              kmodes: Not installed
+2023-10-12 13:56:31,710:INFO:             mlxtend: Not installed
+2023-10-12 13:56:31,710:INFO:       statsforecast: Not installed
+2023-10-12 13:56:31,710:INFO:        tune_sklearn: Not installed
+2023-10-12 13:56:31,710:INFO:                 ray: Not installed
+2023-10-12 13:56:31,710:INFO:            hyperopt: Not installed
+2023-10-12 13:56:31,710:INFO:              optuna: Not installed
+2023-10-12 13:56:31,710:INFO:               skopt: Not installed
+2023-10-12 13:56:31,710:INFO:              mlflow: Not installed
+2023-10-12 13:56:31,710:INFO:              gradio: Not installed
+2023-10-12 13:56:31,710:INFO:             fastapi: Not installed
+2023-10-12 13:56:31,710:INFO:             uvicorn: Not installed
+2023-10-12 13:56:31,710:INFO:              m2cgen: Not installed
+2023-10-12 13:56:31,710:INFO:           evidently: Not installed
+2023-10-12 13:56:31,710:INFO:               fugue: Not installed
+2023-10-12 13:56:31,710:INFO:           streamlit: Not installed
+2023-10-12 13:56:31,710:INFO:             prophet: Not installed
+2023-10-12 13:56:31,710:INFO:None
+2023-10-12 13:56:31,710:INFO:Set up GPU usage.
+2023-10-12 13:56:31,710:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2023-10-12 13:56:31,710:WARNING:cuML is outdated or not found. Required version is >=22.10.
+                Please visit https://rapids.ai/ for installation instructions.
+2023-10-12 13:56:31,710:INFO:Set up data.
+2023-10-12 13:56:31,802:INFO:Set up index.
+2023-10-12 13:56:31,835:INFO:Assigning column types.
+2023-10-12 13:56:31,840:INFO:Engine successfully changes for model 'kmeans' to 'sklearn'.
+2023-10-12 13:56:31,841:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2023-10-12 13:56:31,841:INFO:Engine for model 'dbscan' has not been set explicitly, hence returning None.
+2023-10-12 13:56:31,841:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2023-10-12 13:56:31,841:WARNING:
+'kmodes' is a soft dependency and not included in the pycaret installation. Please run: `pip install kmodes` to install.
+Alternately, you can install this by running `pip install pycaret[models]`
+2023-10-12 13:56:31,841:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2023-10-12 13:56:31,841:INFO:Engine for model 'dbscan' has not been set explicitly, hence returning None.
+2023-10-12 13:56:31,841:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2023-10-12 13:56:31,841:WARNING:
+'kmodes' is a soft dependency and not included in the pycaret installation. Please run: `pip install kmodes` to install.
+Alternately, you can install this by running `pip install pycaret[models]`
+2023-10-12 13:56:31,843:INFO:Engine successfully changes for model 'dbscan' to 'sklearn'.
+2023-10-12 13:56:31,843:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2023-10-12 13:56:31,843:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2023-10-12 13:56:31,843:WARNING:
+'kmodes' is a soft dependency and not included in the pycaret installation. Please run: `pip install kmodes` to install.
+Alternately, you can install this by running `pip install pycaret[models]`
+2023-10-12 13:56:31,843:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2023-10-12 13:56:31,844:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2023-10-12 13:56:31,844:WARNING:
+'kmodes' is a soft dependency and not included in the pycaret installation. Please run: `pip install kmodes` to install.
+Alternately, you can install this by running `pip install pycaret[models]`
+2023-10-12 13:56:31,847:INFO:Preparing preprocessing pipeline...
+2023-10-12 13:56:31,847:INFO:Set up simple imputation.
+2023-10-12 13:56:31,861:INFO:Set up encoding of ordinal features.
+2023-10-12 13:56:31,861:INFO:Set up encoding of categorical features.
+2023-10-12 13:56:31,861:INFO:Set up feature normalization.
+2023-10-12 13:56:36,740:INFO:Finished creating preprocessing pipeline.
+2023-10-12 13:56:36,770:INFO:Pipeline: Pipeline(memory=FastMemory(location=C:\Users\bukuw\AppData\Local\Temp\joblib),
+         steps=[('numerical_imputer',
+                 TransformerWrapper(include=['M1_core_count', 'M1_ppob_count',
+                                             'total_customer', 'is_referrer',
+                                             'age_on_platform_days'],
+                                    transformer=SimpleImputer())),
+                ('categorical_imputer',
+                 TransformerWrapper(include=['kyc_tier', 'loyalty_tier',
+                                             'acquisition_channel',...
+SUPREME     1
+NaN        -1
+dtype: int64}]))),
+                ('onehot_encoding',
+                 TransformerWrapper(include=['loyalty_tier',
+                                             'acquisition_channel',
+                                             'user_segment_sub_bucket'],
+                                    transformer=OneHotEncoder(cols=['loyalty_tier',
+                                                                    'acquisition_channel',
+                                                                    'user_segment_sub_bucket'],
+                                                              handle_missing='return_nan',
+                                                              use_cat_names=True))),
+                ('normalize',
+                 TransformerWrapper(transformer=StandardScaler()))])
+2023-10-12 13:56:36,770:INFO:Creating final display dataframe.
+2023-10-12 13:56:38,920:INFO:Setup _display_container:                  Description                 Value
+0                 Session id                   123
+1        Original data shape           (202898, 9)
+2     Transformed data shape          (202898, 26)
+3            Ignore features                     1
+4           Ordinal features                     1
+5           Numeric features                     5
+6       Categorical features                     4
+7   Rows with missing values                 56.7%
+8                 Preprocess                  True
+9            Imputation type                simple
+10        Numeric imputation                  mean
+11    Categorical imputation                  mode
+12  Maximum one-hot encoding                    -1
+13           Encoding method                  None
+14                 Normalize                  True
+15          Normalize method                zscore
+16                  CPU Jobs                    -1
+17                   Use GPU                  True
+18            Log Experiment                 False
+19           Experiment Name  cluster-default-name
+20                       USI                  2dc6
+2023-10-12 13:56:38,929:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2023-10-12 13:56:38,929:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2023-10-12 13:56:38,929:WARNING:
+'kmodes' is a soft dependency and not included in the pycaret installation. Please run: `pip install kmodes` to install.
+Alternately, you can install this by running `pip install pycaret[models]`
+2023-10-12 13:56:38,929:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2023-10-12 13:56:38,929:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2023-10-12 13:56:38,929:WARNING:
+'kmodes' is a soft dependency and not included in the pycaret installation. Please run: `pip install kmodes` to install.
+Alternately, you can install this by running `pip install pycaret[models]`
+2023-10-12 13:56:38,929:INFO:setup() successfully completed in 7.56s...............
+2023-10-12 13:56:38,950:INFO:Initializing create_model()
+2023-10-12 13:56:38,950:INFO:create_model(self=<pycaret.clustering.oop.ClusteringExperiment object at 0x00000159938B15E0>, estimator=kmeans, num_clusters=4, fraction=0.05, ground_truth=None, round=4, fit_kwargs=None, experiment_custom_tags=None, verbose=True, system=True, add_to_model_list=True, raise_num_clusters=False, display=None, kwargs={})
+2023-10-12 13:56:38,950:INFO:Checking exceptions
+2023-10-12 13:56:39,180:INFO:Importing untrained model
+2023-10-12 13:56:39,192:INFO:K-Means Clustering Imported successfully
+2023-10-12 13:56:39,200:INFO:Fitting Model
+2023-10-12 13:56:41,439:WARNING:c:\Users\bukuw\anaconda3\envs\workenv\lib\site-packages\sklearn\cluster\_kmeans.py:870: FutureWarning: The default value of `n_init` will change from 10 to 'auto' in 1.4. Set the value of `n_init` explicitly to suppress the warning
+  warnings.warn(
+
+2023-10-12 14:04:50,479:INFO:KMeans(n_clusters=4, random_state=123)
+2023-10-12 14:04:50,479:INFO:create_models() successfully completed......................................
+2023-10-12 14:04:50,487:INFO:Uploading results into container
+2023-10-12 14:04:50,492:INFO:Uploading model into container now
+2023-10-12 14:04:50,502:INFO:_master_model_container: 1
+2023-10-12 14:04:50,502:INFO:_display_container: 2
+2023-10-12 14:04:50,502:INFO:KMeans(n_clusters=4, random_state=123)
+2023-10-12 14:04:50,502:INFO:create_model() successfully completed......................................
+2023-10-12 14:04:51,088:INFO:Initializing plot_model()
+2023-10-12 14:04:51,089:INFO:plot_model(plot=elbow, fold=None, use_train_data=False, verbose=True, display=None, display_format=None, estimator=KMeans(n_clusters=4, random_state=123), feature_name=None, fit_kwargs=None, groups=None, label=False, plot_kwargs=None, save=False, scale=1, self=<pycaret.clustering.oop.ClusteringExperiment object at 0x00000159938B15E0>, system=True)
+2023-10-12 14:04:51,089:INFO:Checking exceptions
+2023-10-12 14:04:51,094:INFO:Preloading libraries
+2023-10-12 14:04:51,095:INFO:Copying training dataset
+2023-10-12 14:04:51,095:INFO:Plot type: elbow
+2023-10-12 14:04:51,492:INFO:Fitting Model
+2023-10-12 14:04:51,557:WARNING:c:\Users\bukuw\anaconda3\envs\workenv\lib\site-packages\sklearn\cluster\_kmeans.py:870: FutureWarning: The default value of `n_init` will change from 10 to 'auto' in 1.4. Set the value of `n_init` explicitly to suppress the warning
+  warnings.warn(
+
+2023-10-12 14:04:52,619:WARNING:c:\Users\bukuw\anaconda3\envs\workenv\lib\site-packages\sklearn\cluster\_kmeans.py:870: FutureWarning: The default value of `n_init` will change from 10 to 'auto' in 1.4. Set the value of `n_init` explicitly to suppress the warning
+  warnings.warn(
+
+2023-10-12 14:04:54,061:WARNING:c:\Users\bukuw\anaconda3\envs\workenv\lib\site-packages\sklearn\cluster\_kmeans.py:870: FutureWarning: The default value of `n_init` will change from 10 to 'auto' in 1.4. Set the value of `n_init` explicitly to suppress the warning
+  warnings.warn(
+
+2023-10-12 14:04:55,682:WARNING:c:\Users\bukuw\anaconda3\envs\workenv\lib\site-packages\sklearn\cluster\_kmeans.py:870: FutureWarning: The default value of `n_init` will change from 10 to 'auto' in 1.4. Set the value of `n_init` explicitly to suppress the warning
+  warnings.warn(
+
+2023-10-12 14:04:57,532:WARNING:c:\Users\bukuw\anaconda3\envs\workenv\lib\site-packages\sklearn\cluster\_kmeans.py:870: FutureWarning: The default value of `n_init` will change from 10 to 'auto' in 1.4. Set the value of `n_init` explicitly to suppress the warning
+  warnings.warn(
+
+2023-10-12 14:04:59,724:WARNING:c:\Users\bukuw\anaconda3\envs\workenv\lib\site-packages\sklearn\cluster\_kmeans.py:870: FutureWarning: The default value of `n_init` will change from 10 to 'auto' in 1.4. Set the value of `n_init` explicitly to suppress the warning
+  warnings.warn(
+
+2023-10-12 14:05:02,357:WARNING:c:\Users\bukuw\anaconda3\envs\workenv\lib\site-packages\sklearn\cluster\_kmeans.py:870: FutureWarning: The default value of `n_init` will change from 10 to 'auto' in 1.4. Set the value of `n_init` explicitly to suppress the warning
+  warnings.warn(
+
+2023-10-12 14:05:05,285:WARNING:c:\Users\bukuw\anaconda3\envs\workenv\lib\site-packages\sklearn\cluster\_kmeans.py:870: FutureWarning: The default value of `n_init` will change from 10 to 'auto' in 1.4. Set the value of `n_init` explicitly to suppress the warning
+  warnings.warn(
+
+2023-10-12 14:05:08,356:WARNING:c:\Users\bukuw\anaconda3\envs\workenv\lib\site-packages\sklearn\cluster\_kmeans.py:870: FutureWarning: The default value of `n_init` will change from 10 to 'auto' in 1.4. Set the value of `n_init` explicitly to suppress the warning
+  warnings.warn(
+
+2023-10-12 14:05:12,659:INFO:Visual Rendered Successfully
+2023-10-12 14:05:12,781:INFO:plot_model() successfully completed......................................
+2023-10-12 14:05:13,822:INFO:Initializing assign_model()
+2023-10-12 14:05:13,822:INFO:assign_model(self=<pycaret.clustering.oop.ClusteringExperiment object at 0x00000159938B15E0>, model=KMeans(n_clusters=4, random_state=123), transformation=False, score=True, verbose=True)
+2023-10-12 14:05:13,823:INFO:Checking exceptions
+2023-10-12 14:05:13,823:INFO:Determining Trained Model
+2023-10-12 14:05:13,823:INFO:Trained Model : K-Means Clustering
+2023-10-12 14:05:13,823:INFO:Copying data
+2023-10-12 14:05:13,966:INFO:(202898, 10)
+2023-10-12 14:05:13,966:INFO:assign_model() successfully completed......................................
+2023-10-12 14:05:15,325:WARNING:C:\Users\bukuw\AppData\Local\Temp\ipykernel_1468\957192638.py:1: FutureWarning: The default value of numeric_only in DataFrameGroupBy.mean is deprecated. In a future version, numeric_only will default to False. Either specify numeric_only or select only columns which should be valid for the function.
+  res.groupby([ 'date_', 'Cluster']).agg('mean')
+
