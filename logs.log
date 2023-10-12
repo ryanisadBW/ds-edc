@@ -55023,3 +55023,131 @@ Alternately, you can install this by running `pip install pycaret[models]`
 2023-10-11 22:42:51,563:INFO:Set up simple imputation.
 2023-10-11 22:42:51,575:INFO:Set up encoding of ordinal features.
 2023-10-11 22:42:51,578:INFO:Set up encoding of categorical features.
+2023-10-11 22:42:55,319:INFO:Finished creating preprocessing pipeline.
+2023-10-11 22:42:55,359:INFO:Pipeline: Pipeline(memory=FastMemory(location=C:\Users\bukuw\AppData\Local\Temp\joblib),
+         steps=[('numerical_imputer',
+                 TransformerWrapper(include=['M1_core_count', 'M1_ppob_count',
+                                             'M1_acc_count',
+                                             'M1_campaign_saldo',
+                                             'total_customer', 'is_referrer',
+                                             'age_on_platform_days',
+                                             'is_send_m1', 'is_imp_m1',
+                                             'is_read_m1', 'is_act_m1',
+                                             'is_conv_m1'],
+                                    transformer=SimpleImputer())),
+                (...
+                                                               mapping=[{'col': 'kyc_tier',
+                                                                         'data_type': dtype('O'),
+                                                                         'mapping': ADVANCED    0
+SUPREME     1
+NaN        -1
+dtype: int64}]))),
+                ('onehot_encoding',
+                 TransformerWrapper(include=['loyalty_tier',
+                                             'acquisition_channel',
+                                             'user_segment_sub_bucket'],
+                                    transformer=OneHotEncoder(cols=['loyalty_tier',
+                                                                    'acquisition_channel',
+                                                                    'user_segment_sub_bucket'],
+                                                              handle_missing='return_nan',
+                                                              use_cat_names=True)))])
+2023-10-11 22:42:55,359:INFO:Creating final display dataframe.
+2023-10-11 22:42:57,802:INFO:Setup _display_container:                  Description                 Value
+0                 Session id                   123
+1        Original data shape          (202906, 16)
+2     Transformed data shape          (202906, 33)
+3            Ignore features                     1
+4           Ordinal features                     1
+5           Numeric features                    12
+6       Categorical features                     4
+7   Rows with missing values                 56.7%
+8                 Preprocess                  True
+9            Imputation type                simple
+10        Numeric imputation                  mean
+11    Categorical imputation                  mode
+12  Maximum one-hot encoding                    -1
+13           Encoding method                  None
+14                  CPU Jobs                    -1
+15                   Use GPU                  True
+16            Log Experiment                 False
+17           Experiment Name  cluster-default-name
+18                       USI                  0442
+2023-10-11 22:42:57,809:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2023-10-11 22:42:57,809:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2023-10-11 22:42:57,810:WARNING:
+'kmodes' is a soft dependency and not included in the pycaret installation. Please run: `pip install kmodes` to install.
+Alternately, you can install this by running `pip install pycaret[models]`
+2023-10-11 22:42:57,810:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2023-10-11 22:42:57,810:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2023-10-11 22:42:57,810:WARNING:
+'kmodes' is a soft dependency and not included in the pycaret installation. Please run: `pip install kmodes` to install.
+Alternately, you can install this by running `pip install pycaret[models]`
+2023-10-11 22:42:57,811:INFO:setup() successfully completed in 6.73s...............
+2023-10-11 22:42:58,097:INFO:Initializing create_model()
+2023-10-11 22:42:58,097:INFO:create_model(self=<pycaret.clustering.oop.ClusteringExperiment object at 0x0000023E11A52DC0>, estimator=kmeans, num_clusters=4, fraction=0.05, ground_truth=None, round=4, fit_kwargs=None, experiment_custom_tags=None, verbose=True, system=True, add_to_model_list=True, raise_num_clusters=False, display=None, kwargs={})
+2023-10-11 22:42:58,098:INFO:Checking exceptions
+2023-10-11 22:42:58,541:INFO:Importing untrained model
+2023-10-11 22:42:58,549:INFO:K-Means Clustering Imported successfully
+2023-10-11 22:42:58,561:INFO:Fitting Model
+2023-10-11 22:43:01,236:WARNING:c:\Users\bukuw\anaconda3\envs\workenv\lib\site-packages\sklearn\cluster\_kmeans.py:870: FutureWarning: The default value of `n_init` will change from 10 to 'auto' in 1.4. Set the value of `n_init` explicitly to suppress the warning
+  warnings.warn(
+
+2023-10-11 22:51:59,352:INFO:KMeans(n_clusters=4, random_state=123)
+2023-10-11 22:51:59,353:INFO:create_models() successfully completed......................................
+2023-10-11 22:51:59,357:INFO:Uploading results into container
+2023-10-11 22:51:59,361:INFO:Uploading model into container now
+2023-10-11 22:51:59,368:INFO:_master_model_container: 1
+2023-10-11 22:51:59,368:INFO:_display_container: 2
+2023-10-11 22:51:59,369:INFO:KMeans(n_clusters=4, random_state=123)
+2023-10-11 22:51:59,369:INFO:create_model() successfully completed......................................
+2023-10-11 22:51:59,985:INFO:Initializing plot_model()
+2023-10-11 22:51:59,985:INFO:plot_model(plot=elbow, fold=None, use_train_data=False, verbose=True, display=None, display_format=None, estimator=KMeans(n_clusters=4, random_state=123), feature_name=None, fit_kwargs=None, groups=None, label=False, plot_kwargs=None, save=False, scale=1, self=<pycaret.clustering.oop.ClusteringExperiment object at 0x0000023E11A52DC0>, system=True)
+2023-10-11 22:51:59,985:INFO:Checking exceptions
+2023-10-11 22:51:59,988:INFO:Preloading libraries
+2023-10-11 22:51:59,989:INFO:Copying training dataset
+2023-10-11 22:51:59,989:INFO:Plot type: elbow
+2023-10-11 22:52:00,191:INFO:Fitting Model
+2023-10-11 22:52:00,248:WARNING:c:\Users\bukuw\anaconda3\envs\workenv\lib\site-packages\sklearn\cluster\_kmeans.py:870: FutureWarning: The default value of `n_init` will change from 10 to 'auto' in 1.4. Set the value of `n_init` explicitly to suppress the warning
+  warnings.warn(
+
+2023-10-11 22:52:01,149:WARNING:c:\Users\bukuw\anaconda3\envs\workenv\lib\site-packages\sklearn\cluster\_kmeans.py:870: FutureWarning: The default value of `n_init` will change from 10 to 'auto' in 1.4. Set the value of `n_init` explicitly to suppress the warning
+  warnings.warn(
+
+2023-10-11 22:52:02,524:WARNING:c:\Users\bukuw\anaconda3\envs\workenv\lib\site-packages\sklearn\cluster\_kmeans.py:870: FutureWarning: The default value of `n_init` will change from 10 to 'auto' in 1.4. Set the value of `n_init` explicitly to suppress the warning
+  warnings.warn(
+
+2023-10-11 22:52:04,322:WARNING:c:\Users\bukuw\anaconda3\envs\workenv\lib\site-packages\sklearn\cluster\_kmeans.py:870: FutureWarning: The default value of `n_init` will change from 10 to 'auto' in 1.4. Set the value of `n_init` explicitly to suppress the warning
+  warnings.warn(
+
+2023-10-11 22:52:06,467:WARNING:c:\Users\bukuw\anaconda3\envs\workenv\lib\site-packages\sklearn\cluster\_kmeans.py:870: FutureWarning: The default value of `n_init` will change from 10 to 'auto' in 1.4. Set the value of `n_init` explicitly to suppress the warning
+  warnings.warn(
+
+2023-10-11 22:52:09,871:WARNING:c:\Users\bukuw\anaconda3\envs\workenv\lib\site-packages\sklearn\cluster\_kmeans.py:870: FutureWarning: The default value of `n_init` will change from 10 to 'auto' in 1.4. Set the value of `n_init` explicitly to suppress the warning
+  warnings.warn(
+
+2023-10-11 22:52:12,477:WARNING:c:\Users\bukuw\anaconda3\envs\workenv\lib\site-packages\sklearn\cluster\_kmeans.py:870: FutureWarning: The default value of `n_init` will change from 10 to 'auto' in 1.4. Set the value of `n_init` explicitly to suppress the warning
+  warnings.warn(
+
+2023-10-11 22:52:15,979:WARNING:c:\Users\bukuw\anaconda3\envs\workenv\lib\site-packages\sklearn\cluster\_kmeans.py:870: FutureWarning: The default value of `n_init` will change from 10 to 'auto' in 1.4. Set the value of `n_init` explicitly to suppress the warning
+  warnings.warn(
+
+2023-10-11 22:52:19,637:WARNING:c:\Users\bukuw\anaconda3\envs\workenv\lib\site-packages\sklearn\cluster\_kmeans.py:870: FutureWarning: The default value of `n_init` will change from 10 to 'auto' in 1.4. Set the value of `n_init` explicitly to suppress the warning
+  warnings.warn(
+
+2023-10-11 22:52:23,589:INFO:Visual Rendered Successfully
+2023-10-11 22:52:23,714:INFO:plot_model() successfully completed......................................
+2023-10-11 22:52:25,480:INFO:Initializing assign_model()
+2023-10-11 22:52:25,480:INFO:assign_model(self=<pycaret.clustering.oop.ClusteringExperiment object at 0x0000023E11A52DC0>, model=KMeans(n_clusters=4, random_state=123), transformation=False, score=True, verbose=True)
+2023-10-11 22:52:25,480:INFO:Checking exceptions
+2023-10-11 22:52:25,480:INFO:Determining Trained Model
+2023-10-11 22:52:25,480:INFO:Trained Model : K-Means Clustering
+2023-10-11 22:52:25,480:INFO:Copying data
+2023-10-11 22:52:25,582:INFO:(202906, 17)
+2023-10-11 22:52:25,582:INFO:assign_model() successfully completed......................................
+2023-10-11 22:52:27,379:WARNING:C:\Users\bukuw\AppData\Local\Temp\ipykernel_21772\957192638.py:1: FutureWarning: The default value of numeric_only in DataFrameGroupBy.mean is deprecated. In a future version, numeric_only will default to False. Either specify numeric_only or select only columns which should be valid for the function.
+  res.groupby([ 'date_', 'Cluster']).agg('mean')
+
